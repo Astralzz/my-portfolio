@@ -1,0 +1,10 @@
+{
+  "home": {
+    "name": "Edain Jesus Cortez Ceron",
+    "description": "Desarrollador Frontend y Back-end en JavaScript",
+    "avatar": {
+      "url": "https://example.com/avatar.jpg",
+      "alt": "Avatar de Edain Jesus Cortez Ceron"
+    }
+  }
+}

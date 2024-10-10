@@ -2,9 +2,19 @@
 
 > EDAIN JESUS CORTEZ CERON
 >
-> [Repositorio en GitHub](https://github.com/Astralzz)
+> **Contacto**
 >
-> ---
+> * [GitHub](https://github.com/Astralzz)
+> * [Facebook](https://www.facebook.com/lAstralz)
+> * [LinkedIn](https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155)
+> * [Email](mailto:dayind@hotmail.com)
+>
+> **Enlaces**
+>
+> * [Repositorio de este proyecto](https://github.com/Astralzz/my-portfolio)
+>
+
+---
 
 ## WEB
 
@@ -49,3 +59,5 @@
 #### **Experiencia de Usuario**
 
 > * [react-joyride](https://react-joyride.com) — Librería para crear recorridos interactivos y tutoriales en la UI.
+
+---
