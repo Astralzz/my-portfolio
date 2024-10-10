@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# MI PORTAFOLIO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> EDAIN JESUS CORTEZ CERON
+>
+> [Repositorio en GitHub](https://github.com/Astralzz)
+>
+> ---
 
-## Available Scripts
+## WEB
 
-In the project directory, you can run:
+### **Tecnologías usadas**
 
-### `npm start`
+> * React
+> * Typescript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### **Librerías usadas**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### **Diseño**
 
-### `npm test`
+> * [Emotion](https://emotion.sh) — CSS en JS para estilizado.
+> * [Sass](https://sass-lang.com) — CSS en JS para estilizado.
+> * [Tailwind](https://tailwindcss.com) — Framework CSS utilitario para diseño responsivo.
+> * [Framer Motion](https://www.framer.com/motion) — Animaciones avanzadas para React.
+> * [react-spring](https://react-spring.dev) — Animaciones suaves para componentes React.
+> * [React-icons](https://react-icons.github.io/react-icons) — Conjunto de íconos para usar en React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### **Gestión del Estado y Navegación**
 
-### `npm run build`
+> * [React router](https://reactrouter.com) — Manejo de rutas y navegación.
+> * [React redux](https://react-redux.js.org) — Manejo global del estado de la aplicación.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### **Manejo de Formularios y Validación**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> * [Formik](https://formik.org) — Librería para crear y gestionar formularios.
+> * [Yup](https://yup-docs.vercel.app) — Validación de datos en formularios.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### **Peticiones**
 
-### `npm run eject`
+> * [Axios](https://axios-http.com) — Cliente HTTP para hacer peticiones a APIs.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### **Gráficos**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> * [Recharts](https://recharts.org) — Creación de gráficos interactivos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### **Meta Data**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+> * [React Helmet](https://github.com/nfl/react-helmet) — Gestión de meta tags para SEO.
 
-## Learn More
+#### **Experiencia de Usuario**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> * [react-joyride](https://react-joyride.com) — Librería para crear recorridos interactivos y tutoriales en la UI.
