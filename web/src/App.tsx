@@ -4,6 +4,8 @@ import { useReduxDispatch, useReduxSelector } from "./redux/hook";
 import FloatingGlobalButton from "./components/FloatingGlobalButton";
 import { css } from "@emotion/css";
 import { updateTheme } from "./redux/slices/themeSlice";
+import IntroductionView from "./views/IntroductionView";
+import SkillsView from "./views/SkillsView";
 
 /**
  * App componente
@@ -23,9 +25,18 @@ const App: React.FC = (): JSX.Element => {
       <div
         className={`main ${css`
           text-align: center;
-        `} bg-gray-300 dark:bg-gray-900`}
+        `} bg-gradient-to-br from-red-100 via-red-50 to-red-200 dark:from-gray-700 dark:via-gray-800 dark:to-gray-950`}
       >
-        <HomeView />
+        <div className="md:max-w-max">
+          {/* Inicio */}
+          <HomeView />
+
+          {/* Introducción */}
+          <IntroductionView />
+
+          {/* Gráficas */}
+          <SkillsView />
+        </div>
 
         {/* Boton flotante */}
         <FloatingGlobalButton
@@ -41,3 +52,13 @@ const App: React.FC = (): JSX.Element => {
 };
 
 export default App;
+
+// {/* Divider */}
+// <div className="flex flex-col items-center justify-center">
+//   <motion.div
+//     initial={{ opacity: 0, y: 20 }}
+//     animate={{ opacity: 1, y: 0 }}
+//     transition={{ duration: 1, delay: 0.5 }}
+//     className="w-3/6 min-h-0.5 bg-gradient-to-r from-red-300 via-red-600 to-red-300 my-3"
+//   />
+// </div>

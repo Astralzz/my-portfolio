@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
+import AOS from 'aos';
 
 // React redux
 import { Provider as ReduxProvider } from "react-redux";
@@ -13,6 +14,11 @@ import router from "./route";
 // Styles
 import "./style/index.scss";
 import "./style/app.scss";
+
+// AOS
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

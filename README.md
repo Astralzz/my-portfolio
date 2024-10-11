@@ -31,6 +31,7 @@
 > * [Sass](https://sass-lang.com) — CSS en JS para estilizado.
 > * [Tailwind](https://tailwindcss.com) — Framework CSS utilitario para diseño responsivo.
 > * [Framer Motion](https://www.framer.com/motion) — Animaciones avanzadas para React.
+> * [AOS](https://michalsnik.github.io/aos) — Animaciones sencillas para React.
 > * [react-spring](https://react-spring.dev) — Animaciones suaves para componentes React.
 > * [React-icons](https://react-icons.github.io/react-icons) — Conjunto de íconos para usar en React.
 

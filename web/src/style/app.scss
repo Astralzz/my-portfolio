@@ -1,15 +1,30 @@
 .main {
-  min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
 
   &-section {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     align-items: center;
     align-self: center;
     justify-content: center;
     text-align: center;
+  }
+
+  &-divider {
+    height: 1.5px;
+    width: auto;
+    background: #000;
+    background: -webkit-linear-gradient(
+      left,
+      rgb(255, 255, 255) 0%,
+      rgb(50, 50, 50) 50%,
+      rgb(255, 255, 255) 100%
+    );
   }
 }

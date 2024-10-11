@@ -1,5 +1,16 @@
 import jsonEn from "../data/info-en.json";
 
+// Tipo GraphicSkill
+
+export type GraphicSkillType = {
+  title?: string;
+  list?: Array<{
+    name?: string;
+    level?: number;
+    color?: string;
+  }>;
+};
+
 // Tipo del JSON
 export type JsonDataType = {
   home?: {
@@ -15,6 +26,16 @@ export type JsonDataType = {
       email?: string;
       facebook?: string;
     };
+  };
+  introduction?: {
+    paragraph?: string;
+  };
+  skills?: {
+    languages?: GraphicSkillType;
+    frameworks?: GraphicSkillType;
+    databases?: GraphicSkillType;
+    tools?: GraphicSkillType;
+    otherSkills?: GraphicSkillType;
   };
 };
 

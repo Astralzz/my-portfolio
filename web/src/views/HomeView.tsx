@@ -27,7 +27,7 @@ const SocialIcon: React.FC<{
   <motion.a
     {...motionEnlace}
     href={href}
-    className="text-gray-800 dark:text-gray-200 hover:text-primary transition-colors duration-300"
+    className="hover:text-primary transition-colors duration-300"
   >
     <motion.div
       initial={{ opacity: 0 }}
@@ -35,18 +35,28 @@ const SocialIcon: React.FC<{
       whileHover={{
         scale: 1.2,
         rotate: 10,
-        color: "#aa2323", 
       }}
       transition={{ type: "spring", stiffness: 300 }}
     >
-      <Icon size={size} />
+      <Icon
+        className={
+          "text-gray-900 dark:text-gray-200 hover:text-red-600 dark:hover:text-red-500"
+        }
+        size={size}
+      />
     </motion.div>
   </motion.a>
 );
 
+/**
+ * Componente inicial
+ *
+ * @component
+ * @return {JSX.Element}
+ */
 const HomeView: React.FC = (): JSX.Element => {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-indigo-300 via-indigo-200 to-indigo-300 dark:from-gray-700 dark:via-gray-800 dark:to-gray-950 text-secondary text-center px-4">
+    <section className="flex flex-col items-center justify-center min-h-screen text-secondary text-center px-4">
       {/* Imagen con sombra y animación de entrada */}
       {avatar?.src && (
         <motion.img
@@ -74,7 +84,7 @@ const HomeView: React.FC = (): JSX.Element => {
       {/* Descripción con animación */}
       {description && (
         <motion.p
-          className="text-lg sm:text-xl max-w-xl mt-3 font-medium text-gray-800 dark:text-gray-200"
+          className="text-lg sm:text-xl max-w-xl mt-3 font-medium text-gray-900 dark:text-gray-200"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}

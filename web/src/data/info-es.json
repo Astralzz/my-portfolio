@@ -12,5 +12,57 @@
       "email": "mailto:dayind@hotmail.com",
       "facebook": "https://www.facebook.com/lAstralz"
     }
+  },
+  "introduction": {
+    "paragraph": "Soy Edain, desarrollador full stack con más de 5 años de experiencia en la creación de aplicaciones web y móviles. A lo largo de mi carrera, he trabajado con tecnologías como React, Vue.js, Laravel y Tailwind CSS, que me han permitido desarrollar soluciones escalables y eficientes. Actualmente, estoy inmerso en un proyecto de innovación en la industria de la salud, donde mi equipo y yo desarrollamos herramientas para mejorar la comunicación entre pacientes y profesionales médicos. Hablo español e inglés, lo que me ha permitido colaborar en proyectos internacionales y mantenerme al día con las últimas tendencias tecnológicas. Mi motivación principal es la resolución de problemas complejos a través del código, y uno de mis mayores logros fue liderar el desarrollo de un sistema de gestión de eventos que fue clave para el éxito de una conferencia nacional. Fuera del trabajo, disfruto explorando nuevas tecnologías y aprendiendo sobre inteligencia artificial, lo que complementa mi interés por el desarrollo tecnológico."
+  },
+  "skills": {
+    "languages": {
+      "title": "Lenguajes",
+      "list": [
+        { "name": "JavaScript", "level": 90, "color": "#F7DF1E" },
+        { "name": "TypeScript", "level": 90, "color": "#007ACC" },
+        { "name": "PHP", "level": 80, "color": "#8993BE" },
+        { "name": "Java", "level": 85, "color": "#007396" },
+        { "name": "Python", "level": 50, "color": "#306998" }
+      ]
+    },
+    "frameworks": {
+      "title": "frameworks",
+      "list": [
+        { "name": "React", "level": 90, "color": "#61DAFB" },
+        { "name": "Vue", "level": 50, "color": "#42b883" },
+        { "name": "Laravel", "level": 90, "color": "#FF2D55" },
+        { "name": "Django", "level": 40, "color": "#092E20" },
+        { "name": "Spring Boot", "level": 50, "color": "#6DB33F" },
+        { "name": "React Native", "level": 90, "color": "#61DAFB" },
+        { "name": "Ionic", "level": 80, "color": "#3880FF" }
+      ]
+    },
+    "databases": {
+      "title": "Bases de datos",
+      "list": [
+        { "name": "MySQL", "level": 80, "color": "#4479A1" },
+        { "name": "Oracle", "level": 50, "color": "#F80000" }
+      ]
+    },
+    "tools": {
+      "title": "Herramientas",
+      "list": [
+        { "name": "Git", "level": 85, "color": "#F05033" },
+        { "name": "Bootstrap", "level": 90, "color": "#7952B3" },
+        { "name": "Tailwind CSS", "level": 100, "color": "#06B6D4" },
+        { "name": "Markdown", "level": 100, "color": "#000000" },
+        { "name": "Docker", "level": 40, "color": "#2496ED" }
+      ]
+    },
+    "otherSkills": {
+      "title": "",
+      "list": [
+        { "name": "Desarrollo frontend", "level": 90, "color": "#F7DF1E" },
+        { "name": "Desarrollo backend", "level": 90, "color": "#007ACC" },
+        { "name": "Desarrollo Móvil", "level": 80, "color": "#61DAFB" }
+      ]
+    }
   }
 }
