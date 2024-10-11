@@ -9,6 +9,12 @@ export type JsonDataType = {
       src?: string;
       alt?: string;
     };
+    enlaces?: {
+      github?: string;
+      linkedin?: string;
+      email?: string;
+      facebook?: string;
+    };
   };
 };
 
@@ -23,6 +29,5 @@ if (userLanguage.startsWith("es")) {
   const jsonEs = require("../data/info-es.json");
   INFO_APP = jsonEs;
 }
-
 
 export default INFO_APP;

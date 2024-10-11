@@ -1,10 +1,16 @@
 {
   "home": {
     "name": "Edain Jesus Cortez Ceron",
-    "description": "Desarrollador Frontend y Back-end en JavaScript",
+    "description": "Desarrollador full stack",
     "avatar": {
-      "url": "https://example.com/avatar.jpg",
+      "src": "https://avatars.githubusercontent.com/u/101297627?v=4",
       "alt": "Avatar de Edain Jesus Cortez Ceron"
+    },
+    "enlaces": {
+      "github": "https://github.com/Astralzz",
+      "linkedin": "https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155",
+      "email": "mailto:dayind@hotmail.com",
+      "facebook": "https://www.facebook.com/lAstralz"
     }
   }
 }

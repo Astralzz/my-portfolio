@@ -1,9 +1,15 @@
 .main {
-  text-align: center;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: 'Poppins', sans-serif;
+
+  &-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
