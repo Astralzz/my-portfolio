@@ -64,5 +64,31 @@
         { "name": "Desarrollo Móvil", "level": 80, "color": "#61DAFB" }
       ]
     }
+  },
+  "achievements": {
+    "title": "Logros destacados",
+    "list": [
+      {
+        "title": "UAGro App",
+        "subtitle": "Aplicación oficial de la universidad autónoma de Guerreo",
+        "tipo": "app",
+        "technologies": ["react", "laravel", "oracle"],
+        "description": "Aplicación oficial de la universidad autónoma de Guerreo usada asta la fecha por mas de 10,000 estudiantes, cuenta con....",
+        "links": [
+          {
+            "text": "Pagina oficial",
+            "url": "https://uagroapp.uagro.mx"
+          },
+          {
+            "text": "Descargarla en play store",
+            "url": "https://play.google.com/store/apps/details?id=com.astralz.uagroapp"
+          },
+          {
+            "text": "Descargarla en iOS store",
+            "url": "https://apps.apple.com/us/app/uagro-app/id6475783654"
+          }
+        ]
+      }
+    ]
   }
 }

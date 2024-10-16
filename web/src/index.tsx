@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import AOS from 'aos';
+import AOS from "aos";
 
 // React redux
 import { Provider as ReduxProvider } from "react-redux";
@@ -14,9 +14,11 @@ import router from "./route";
 // Styles
 import "./style/index.scss";
 import "./style/app.scss";
+import "./style/components/floating-menu.scss";
+import "./style/components/achievement-card.scss";
 
 // AOS
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 
 AOS.init();
 

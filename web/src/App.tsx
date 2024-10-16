@@ -6,6 +6,8 @@ import { css } from "@emotion/css";
 import { updateTheme } from "./redux/slices/themeSlice";
 import IntroductionView from "./views/IntroductionView";
 import SkillsView from "./views/SkillsView";
+import FloatingMenu from "./components/menus/FloatingMenu";
+import AchievementView from "./views/AchievementView";
 
 /**
  * App componente
@@ -25,6 +27,7 @@ const App: React.FC = (): JSX.Element => {
       <div
         className={`main ${css`
           text-align: center;
+          padding-bottom: 2em;
         `} bg-gradient-to-br from-red-100 via-red-50 to-red-200 dark:from-gray-700 dark:via-gray-800 dark:to-gray-950`}
       >
         <div className="md:max-w-max">
@@ -36,16 +39,26 @@ const App: React.FC = (): JSX.Element => {
 
           {/* Gráficas */}
           <SkillsView />
+
+          {/* Logros */}
+          <AchievementView />
         </div>
 
         {/* Boton flotante */}
-        <FloatingGlobalButton
+        <FloatingMenu
           theme={{
             action: () =>
               reduxDispatch(updateTheme(theme === "dark" ? "light" : "dark")),
             color: theme,
           }}
         />
+        {/* <FloatingGlobalButton
+          theme={{
+            action: () =>
+              reduxDispatch(updateTheme(theme === "dark" ? "light" : "dark")),
+            color: theme,
+          }}
+        /> */}
       </div>
     </main>
   );

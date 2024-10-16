@@ -1,13 +1,25 @@
 import jsonEn from "../data/info-en.json";
 
 // Tipo GraphicSkill
-
 export type GraphicSkillType = {
   title?: string;
   list?: Array<{
     name?: string;
     level?: number;
     color?: string;
+  }>;
+};
+
+// tipo AchievementCardType
+export type AchievementCardType = {
+  title?: string;
+  subtitle?: string;
+  tipo?: "app" | "web" | "server";
+  technologies?: Array<string>;
+  description?: string;
+  links?: Array<{
+    text?: string;
+    url?: string;
   }>;
 };
 
@@ -36,6 +48,10 @@ export type JsonDataType = {
     databases?: GraphicSkillType;
     tools?: GraphicSkillType;
     otherSkills?: GraphicSkillType;
+  };
+  achievements?: {
+    title?: string;
+    list?: Array<AchievementCardType>;
   };
 };
 

@@ -4,6 +4,7 @@
         "Formik",
         "Laravel",
         "linkedin",
-        "reutilizable"
+        "reutilizable",
+        "togglear"
     ]
 }
