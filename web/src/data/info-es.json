@@ -17,6 +17,7 @@
     "paragraph": "Soy Edain, desarrollador full stack con más de 5 años de experiencia en la creación de aplicaciones web y móviles. A lo largo de mi carrera, he trabajado con tecnologías como React, Vue.js, Laravel y Tailwind CSS, que me han permitido desarrollar soluciones escalables y eficientes. Actualmente, estoy inmerso en un proyecto de innovación en la industria de la salud, donde mi equipo y yo desarrollamos herramientas para mejorar la comunicación entre pacientes y profesionales médicos. Hablo español e inglés, lo que me ha permitido colaborar en proyectos internacionales y mantenerme al día con las últimas tendencias tecnológicas. Mi motivación principal es la resolución de problemas complejos a través del código, y uno de mis mayores logros fue liderar el desarrollo de un sistema de gestión de eventos que fue clave para el éxito de una conferencia nacional. Fuera del trabajo, disfruto explorando nuevas tecnologías y aprendiendo sobre inteligencia artificial, lo que complementa mi interés por el desarrollo tecnológico."
   },
   "skills": {
+    "title": "Habilidades",
     "languages": {
       "title": "Lenguajes",
       "list": [
@@ -73,7 +74,28 @@
         "subtitle": "Aplicación oficial de la universidad autónoma de Guerreo",
         "tipo": "app",
         "technologies": ["react", "laravel", "oracle"],
-        "description": "Aplicación oficial de la universidad autónoma de Guerreo usada asta la fecha por mas de 10,000 estudiantes, cuenta con....",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus.",
+        "links": [
+          {
+            "text": "Pagina oficial",
+            "url": "https://uagroapp.uagro.mx"
+          },
+          {
+            "text": "Descargarla en play store",
+            "url": "https://play.google.com/store/apps/details?id=com.astralz.uagroapp"
+          },
+          {
+            "text": "Descargarla en iOS store",
+            "url": "https://apps.apple.com/us/app/uagro-app/id6475783654"
+          }
+        ]
+      },
+      {
+        "title": "ANUIES",
+        "subtitle": "Aplicación oficial de la universidad autónoma de Guerreo",
+        "tipo": "web",
+        "technologies": ["react", "laravel", "oracle"],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus.",
         "links": [
           {
             "text": "Pagina oficial",

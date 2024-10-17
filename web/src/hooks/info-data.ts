@@ -1,4 +1,5 @@
 import jsonEn from "../data/info-en.json";
+import jsonEs from "../data/info-es.json"; 
 
 // Tipo GraphicSkill
 export type GraphicSkillType = {
@@ -43,6 +44,7 @@ export type JsonDataType = {
     paragraph?: string;
   };
   skills?: {
+    title?: string;
     languages?: GraphicSkillType;
     frameworks?: GraphicSkillType;
     databases?: GraphicSkillType;
@@ -60,11 +62,15 @@ const userLanguage = navigator.language;
 
 // Carga el JSON en ingles
 let INFO_APP: JsonDataType = jsonEn;
+let lenguaje: "es" | "en" = "en";
 
 // ? Es español
 if (userLanguage.startsWith("es")) {
-  const jsonEs = require("../data/info-es.json");
-  INFO_APP = jsonEs;
+  INFO_APP = jsonEs as JsonDataType;
+  lenguaje = "es";
 }
+
+// Idioma
+export const LENGUAJE_BROWSER = lenguaje;
 
 export default INFO_APP;

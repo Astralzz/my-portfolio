@@ -4,6 +4,7 @@ import INFO_APP from "../hooks/info-data";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { IconType } from "react-icons";
+import SectionWrapperDefault from "../components/sections/SectionWrapperDefault";
 
 const { avatar, name, description, enlaces } = INFO_APP?.home || {};
 
@@ -56,7 +57,7 @@ const SocialIcon: React.FC<{
  */
 const HomeView: React.FC = (): JSX.Element => {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen text-secondary text-center px-4">
+    <SectionWrapperDefault className="md:min-h-screen">
       {/* Imagen con sombra y animación de entrada */}
       {avatar?.src && (
         <motion.img
@@ -110,7 +111,7 @@ const HomeView: React.FC = (): JSX.Element => {
           )}
         </div>
       )}
-    </section>
+    </SectionWrapperDefault>
   );
 };
 

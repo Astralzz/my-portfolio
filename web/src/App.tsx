@@ -1,13 +1,15 @@
 import React from "react";
 import HomeView from "./views/HomeView";
 import { useReduxDispatch, useReduxSelector } from "./redux/hook";
-import FloatingGlobalButton from "./components/FloatingGlobalButton";
 import { css } from "@emotion/css";
 import { updateTheme } from "./redux/slices/themeSlice";
 import IntroductionView from "./views/IntroductionView";
 import SkillsView from "./views/SkillsView";
 import FloatingMenu from "./components/menus/FloatingMenu";
 import AchievementView from "./views/AchievementView";
+
+// Responsive modal
+import 'react-responsive-modal/styles.css';
 
 /**
  * App componente
@@ -30,7 +32,7 @@ const App: React.FC = (): JSX.Element => {
           padding-bottom: 2em;
         `} bg-gradient-to-br from-red-100 via-red-50 to-red-200 dark:from-gray-700 dark:via-gray-800 dark:to-gray-950`}
       >
-        <div className="md:max-w-max">
+        <div className="flex flex-col max-w-3xl items-center justify-center text-center px-4">
           {/* Inicio */}
           <HomeView />
 
@@ -52,13 +54,6 @@ const App: React.FC = (): JSX.Element => {
             color: theme,
           }}
         />
-        {/* <FloatingGlobalButton
-          theme={{
-            action: () =>
-              reduxDispatch(updateTheme(theme === "dark" ? "light" : "dark")),
-            color: theme,
-          }}
-        /> */}
       </div>
     </main>
   );

@@ -34,6 +34,7 @@
 > * [AOS](https://michalsnik.github.io/aos) — Animaciones sencillas para React.
 > * [react-spring](https://react-spring.dev) — Animaciones suaves para componentes React.
 > * [React-icons](https://react-icons.github.io/react-icons) — Conjunto de íconos para usar en React.
+> * [React-responsive-modal](https://react-responsive-modal.leopradel.com) — Modal responsivo.
 
 #### **Gestión del Estado y Navegación**
 

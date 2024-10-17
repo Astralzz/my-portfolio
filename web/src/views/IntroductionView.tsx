@@ -1,5 +1,6 @@
 import React from "react";
 import INFO_APP from "../hooks/info-data";
+import SectionWrapperDefault from "../components/sections/SectionWrapperDefault";
 
 const { paragraph } = INFO_APP?.introduction || {};
 
@@ -11,17 +12,17 @@ const { paragraph } = INFO_APP?.introduction || {};
  */
 const IntroductionView: React.FC = (): JSX.Element => {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen text-secondary text-center px-4">
+    <SectionWrapperDefault>
       {/* Párrafo de la introducción */}
       {paragraph && (
         <p
           data-aos="fade-up"
-          className="text-lg text-gray-900 dark:text-gray-200 text-justify sm:text-xl max-w-2xl mx-auto mb-6"
+          className="text-lg text-gray-900 dark:text-gray-200 text-justify sm:text-xl max-w-2xl mb-6"
         >
           {paragraph}
         </p>
       )}
-    </section>
+    </SectionWrapperDefault>
   );
 };
 
