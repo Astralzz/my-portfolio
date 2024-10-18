@@ -11,12 +11,17 @@ const { paragraph } = INFO_APP?.introduction || {};
  * @return {JSX.Element}
  */
 const IntroductionView: React.FC = (): JSX.Element => {
+  // Variables
+  // const ref = React.useRef<HTMLParagraphElement>(null);
+  // const isInView = useInView(ref, { once: true });
+
   return (
     <SectionWrapperDefault>
       {/* Párrafo de la introducción */}
       {paragraph && (
         <p
           data-aos="fade-up"
+          data-aos-duration="1500"
           className="text-lg text-gray-900 dark:text-gray-200 text-justify sm:text-xl max-w-2xl mb-6"
         >
           {paragraph}

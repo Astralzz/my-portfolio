@@ -48,8 +48,8 @@ const GraphicArea: React.FC<GraphicAppProps> = ({
               <Area
                 type="monotone"
                 dataKey="level"
-                stroke={getColorGraphic()}
-                fill={getColorGraphic()}
+                stroke={getColorGraphic(isThemeDark)}
+                fill={getColorGraphic(isThemeDark)}
                 fillOpacity={0.6}
               />
             </AreaChart>

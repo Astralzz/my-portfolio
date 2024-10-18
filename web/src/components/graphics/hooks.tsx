@@ -40,7 +40,10 @@ export const getRenderTooltipContent = (isThemeDark: boolean, props: any) => {
 };
 
 // Color de la gráfica
-export const getColorGraphic = (color: string = "#a22e2e") => color;
+export const getColorGraphic = (
+  isThemeDark: boolean = false,
+  color: string = "#e88181"
+) => (isThemeDark ? "#a22e2e" : color);
 
 // Props
 export type GraphicAppProps = {
@@ -53,4 +56,13 @@ export type GraphicAppProps = {
       color?: string;
     }>;
   };
+};
+
+
+
+// Animaciones de los items random
+export const getAnimateFadeItemsRandom = (): string => {
+  const animates = ["up", "down", "right", "down-right", "up-right"];
+
+  return `fade-${animates[Math.floor(Math.random() * animates.length)]}`;
 };

@@ -81,35 +81,120 @@
             "url": "https://uagroapp.uagro.mx"
           },
           {
-            "text": "Descargarla en play store",
+            "text": "Play store",
             "url": "https://play.google.com/store/apps/details?id=com.astralz.uagroapp"
           },
           {
-            "text": "Descargarla en iOS store",
+            "text": "IOS store",
             "url": "https://apps.apple.com/us/app/uagro-app/id6475783654"
           }
         ]
       },
       {
         "title": "ANUIES",
-        "subtitle": "Aplicación oficial de la universidad autónoma de Guerreo",
+        "subtitle": "Sistema de prospección para la ampliación de la oferta de educación superior",
         "tipo": "web",
         "technologies": ["react", "laravel", "oracle"],
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus.",
         "links": [
           {
             "text": "Pagina oficial",
-            "url": "https://uagroapp.uagro.mx"
-          },
-          {
-            "text": "Descargarla en play store",
-            "url": "https://play.google.com/store/apps/details?id=com.astralz.uagroapp"
-          },
-          {
-            "text": "Descargarla en iOS store",
-            "url": "https://apps.apple.com/us/app/uagro-app/id6475783654"
+            "url": "https://ampliacioncobertura.anuies.mx/inicio"
           }
         ]
+      },
+      {
+        "title": "Informe",
+        "subtitle": "Pagina web del el informe del rector Javier Saldaña",
+        "tipo": "web",
+        "technologies": ["react", "laravel", "oracle"],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus.",
+        "links": [
+          {
+            "text": "Pagina oficial",
+            "url": "https://informerector.uagro.mx"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "list": [
+      {
+        "company": {
+          "abbreviations": "SISDAI",
+          "name": "Sistema de Diseño y Accesibilidad para la Investigación"
+        },
+        "role": "Desarrollador Frond end",
+        "duration": "Diciembre 2023 - Actualidad",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus."
+      },
+      {
+        "company": {
+          "abbreviations": "DGTID",
+          "name": "Dirección General de tecnologías de la innovación y digitalización"
+        },
+        "role": "Desarrollador Full Stack",
+        "duration": "Enero 2023 - Enero 2025",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus."
+      },
+      {
+        "company": {
+          "abbreviations": "UAGRO",
+          "name": "Universidad Autónoma de Guerrero"
+        },
+        "role": "Maestro del lenguaje java",
+        "duration": "Febrero 2002 - Enero 2023",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus."
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación y certificados",
+    "list": [
+      {
+        "institution": "Universidad Autónoma del estado de Guerrero",
+        "degree": "Licenciatura en Ingeniería de Software",
+        "duration": "2019 - 2023"
+      },
+      {
+        "institution": "Universidad Autónoma del estado de Guerrero",
+        "degree": "Licenciatura en Ingeniería de Software",
+        "duration": "2017 - 2019",
+        "url": "#"
+      }
+    ]
+  },
+  "references": {
+    "title": "Referencias y testimonios",
+    "list": [
+      {
+        "name": "M.A. David León Quiroz",
+        "role": "Jefe del Departamento de Sistemas de Información y Transformación Digital",
+        "testimonial": "Edain ha demostrado un nivel excepcional de habilidad técnica y compromiso en cada proyecto. Su trabajo en el sistema de gestión de eventos fue crucial para su éxito.",
+        "links": {
+          "tel": "7471633315",
+          "email": "davidleonquiroz@uagro.mx"
+        }
+      },
+      {
+        "name": "DR Valentin Acosta Vello",
+        "role": "Subdirector de la facultad de ingeniería de la Universidad Autónoma de Guerrero",
+        "testimonial": "Edain es un desarrollador increíblemente talentoso. Su capacidad para abordar problemas complejos y proponer soluciones eficientes es notable.",
+        "links": {
+          "tel": "7471633315",
+          "email": "valentinastavastav@uagro.mx"
+        }
+      },
+      {
+        "name": "M.C. Marco Castro Vera",
+        "role": "Coordinador del programa de Ingeniería de Software en la Universidad Autónoma de Guerrero",
+        "testimonial": "Edain ha sido un excelente líder y colaborador durante la implementación del programa. Su trabajo en el sistema de gestión de eventos fue crucial para su éxito.",
+        "links": {
+          "tel": "7471633315",
+          "email": "marcocastrovera@uagro.mx"
+        }
       }
     ]
   }

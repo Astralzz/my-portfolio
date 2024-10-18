@@ -80,7 +80,7 @@ const GraphicBar: React.FC<GraphicAppProps> = ({
               >
                 {/* Celdas de barra */}
                 {list.map(({ color }, index) => (
-                  <Cell key={`cell-${index}`} fill={getColorGraphic()} />
+                  <Cell key={`cell-${index}`} fill={getColorGraphic(isThemeDark)} />
                 ))}
               </Bar>
             </BarChart>

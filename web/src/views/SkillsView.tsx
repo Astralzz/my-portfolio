@@ -8,6 +8,7 @@ import GraphicArea from "../components/graphics/GraphicArea";
 import { ThemeAppType } from "../redux/slices/themeSlice";
 import TitleSectionDefault from "../components/titles/TitleSectionDefault";
 import SectionWrapperDefault from "../components/sections/SectionWrapperDefault";
+import { getAnimateFadeItemsRandom } from "../components/graphics/hooks";
 
 const { languages, frameworks, databases, tools, title } =
   INFO_APP?.skills || {};
@@ -31,7 +32,7 @@ const GraphicComponent: React.FC<{
       : GraphicBar;
 
   return (
-    <div className="h-96">
+    <div className="h-96" data-aos={getAnimateFadeItemsRandom()} data-aos-duration="1500">
       <GraphicComponent data={data} isThemeDark={theme === "dark"} />
     </div>
   );

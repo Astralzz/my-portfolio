@@ -1,5 +1,5 @@
 import jsonEn from "../data/info-en.json";
-import jsonEs from "../data/info-es.json"; 
+import jsonEs from "../data/info-es.json";
 
 // Tipo GraphicSkill
 export type GraphicSkillType = {
@@ -55,6 +55,38 @@ export type JsonDataType = {
     title?: string;
     list?: Array<AchievementCardType>;
   };
+  experience?: {
+    title?: string;
+    list?: Array<{
+      company?: {
+        abbreviations?: string;
+        name?: string;
+      };
+      role?: string;
+      duration?: string;
+      description?: string;
+    }>;
+  };
+  education?: {
+    title?: string;
+    list?: Array<{
+      institution?: string;
+      degree?: string;
+      duration?: string;
+    }>;
+  };
+  references?: {
+    title?: string;
+    list?: Array<{
+      name?: string;
+      role?: string;
+      testimonial?: string;
+      links?: {
+        tel?: string;
+        email?: string;
+      };
+    }>;
+  };
 };
 
 // Detecta el idioma del navegador
@@ -62,6 +94,9 @@ const userLanguage = navigator.language;
 
 // Carga el JSON en ingles
 let INFO_APP: JsonDataType = jsonEn;
+
+INFO_APP = jsonEs as JsonDataType; // borrar
+
 let lenguaje: "es" | "en" = "en";
 
 // ? Es español

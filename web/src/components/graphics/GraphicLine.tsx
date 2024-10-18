@@ -48,7 +48,7 @@ const GraphicLine: React.FC<GraphicAppProps> = ({
               <Line
                 type="monotone"
                 dataKey="level"
-                stroke={getColorGraphic()}
+                stroke={getColorGraphic(isThemeDark)}
                 strokeWidth={2}
               />
             </LineChart>

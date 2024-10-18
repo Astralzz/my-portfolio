@@ -1,4 +1,5 @@
 import React from "react";
+import { getAnimateFadeItemsRandom } from "../graphics/hooks";
 
 // Props
 interface TitleSectionDefaultProps {
@@ -25,7 +26,8 @@ const TitleSectionDefault: React.FC<TitleSectionDefaultProps> = ({
         className={`text-2xl font-bold text-gray-900 dark:text-gray-200 mb-4 ${
           classNames?.text ?? ""
         }`}
-        data-aos="fade-up"
+        data-aos={getAnimateFadeItemsRandom()}
+        data-aos-duration="1500"
       >
         {title}
       </h1>

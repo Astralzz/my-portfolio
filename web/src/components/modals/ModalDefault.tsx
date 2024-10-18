@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 // Estilos basados en el tema
 const getBgColor = (theme: ThemeAppType) =>
-  theme === "light" ? "#fca5a5" : "#1f2937";
+  theme === "light" ? "#fecaca" : "#1f2937";
 const getBgColorOpacity = (theme: ThemeAppType) =>
   theme === "light" ? "rgba(252, 165, 165, 0.25)" : "rgba(31, 41, 55, 0.25)";
 const getTextColor = (theme: ThemeAppType) =>

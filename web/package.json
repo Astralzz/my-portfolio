@@ -1,6 +1,11 @@
 {
-  "name": "web",
-  "version": "0.1.0",
+  "name": "my_portfolio",
+  "author": {
+    "name": "Edain Jesus Cortez Ceron",
+    "email": "dayind@hotmail.com",
+    "url": "https://github.com/Astralzz"
+  },
+  "version": "0.1.4",
   "private": true,
   "dependencies": {
     "@emotion/css": "^11.13.4",
@@ -17,6 +22,7 @@
     "axios": "^1.7.7",
     "formik": "^2.4.6",
     "framer-motion": "^11.11.7",
+    "my_portfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",

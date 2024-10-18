@@ -5,6 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { limitarCadena } from "../../hooks/funs";
 import { motion } from "framer-motion";
 import { IoServer } from "react-icons/io5";
+import { getAnimateFadeItemsRandom } from "../graphics/hooks";
 
 // Icono de tipo
 const renderTypeElement = (tipo: "app" | "web" | "server") => {
@@ -46,8 +47,12 @@ const AchievementCard: React.FC<AchievementCardProps> = ({
   const { title, description, tipo } = card;
 
   return (
-    <div className="pt-4 max-w-sm" data-aos="fade-up">
-      <div className="flex rounded-lg h-full dark:bg-gray-800 bg-red-300 shadow-lg px-5 pt-8 pb-4 flex-col">
+    <div
+      className="pt-4 max-w-sm"
+      data-aos={getAnimateFadeItemsRandom()}
+      data-aos-duration="1500"
+    >
+      <div className="flex rounded-lg h-full dark:bg-gray-800 bg-red-200 shadow-lg px-5 pt-8 pb-4 flex-col">
         {/* Encabezado */}
         <div className="flex items-center mb-3">
           <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-red-700 bg-red-500 flex-shrink-0">

@@ -42,8 +42,8 @@ const GraphicRadar: React.FC<GraphicAppProps> = ({
               <Radar
                 name="Level"
                 dataKey="level"
-                stroke={getColorGraphic()}
-                fill={getColorGraphic()}
+                stroke={getColorGraphic(isThemeDark)}
+                fill={getColorGraphic(isThemeDark)}
                 fillOpacity={0.6}
               />
             </RadarChart>

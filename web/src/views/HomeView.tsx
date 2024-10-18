@@ -3,51 +3,10 @@ import { motion } from "framer-motion";
 import INFO_APP from "../hooks/info-data";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { IconType } from "react-icons";
 import SectionWrapperDefault from "../components/sections/SectionWrapperDefault";
+import SocialIcon from "../components/icons/SocialIcon";
 
 const { avatar, name, description, enlaces } = INFO_APP?.home || {};
-
-// Animaciones mejoradas para los enlaces de redes sociales
-const motionEnlace = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 1, delay: 0.5 },
-  whileHover: { scale: 1.5, rotate: 10 }, // Rotación añadida
-  whileTap: { scale: 0.9 }, // Animación al hacer clic
-  target: "_blank",
-  rel: "noopener noreferrer",
-};
-
-// Componente reutilizable para los iconos de redes sociales
-const SocialIcon: React.FC<{
-  href: string;
-  Icon: IconType;
-  size?: number;
-}> = ({ href, Icon, size = 30 }) => (
-  <motion.a
-    {...motionEnlace}
-    href={href}
-    className="hover:text-primary transition-colors duration-300"
-  >
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      whileHover={{
-        scale: 1.2,
-        rotate: 10,
-      }}
-      transition={{ type: "spring", stiffness: 300 }}
-    >
-      <Icon
-        className={
-          "text-gray-900 dark:text-gray-200 hover:text-red-600 dark:hover:text-red-500"
-        }
-        size={size}
-      />
-    </motion.div>
-  </motion.a>
-);
 
 /**
  * Componente inicial

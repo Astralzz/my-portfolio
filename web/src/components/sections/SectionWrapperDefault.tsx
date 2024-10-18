@@ -14,7 +14,7 @@ const SectionWrapperDefault: React.FC<{
 }> = ({ children, className = "" }): JSX.Element => {
   return (
     <section
-      className={`flex flex-col items-center justify-center min-h-screen md:min-h-max w-full ${className}`}
+      className={`flex flex-col items-center justify-center mb-12 min-h-screen md:min-h-max w-full ${className}`}
     >
       {children}
     </section>
