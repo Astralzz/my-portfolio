@@ -6,12 +6,13 @@ import { updateTheme } from "./redux/slices/themeSlice";
 import IntroductionView from "./views/IntroductionView";
 import SkillsView from "./views/SkillsView";
 import FloatingMenu from "./components/menus/FloatingMenu";
-
-// Responsive modal
-import "react-responsive-modal/styles.css";
 import AchievementsView from "./views/achievements/AchievementsView";
 import ExperienceView from "./views/ExperienceView";
 import ReferencesView from "./views/ReferencesView";
+import RepositoriesView from "./views/repositories/RepositoriesView";
+
+// Responsive modal
+import "react-responsive-modal/styles.css";
 
 /**
  * App componente
@@ -52,6 +53,9 @@ const App: React.FC = (): JSX.Element => {
 
           {/* Referencias */}
           <ReferencesView />
+
+          {/* Repositorios */}
+          <RepositoriesView />
         </div>
 
         {/* Boton flotante */}

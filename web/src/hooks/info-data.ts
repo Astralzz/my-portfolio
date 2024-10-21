@@ -87,6 +87,10 @@ export type JsonDataType = {
       };
     }>;
   };
+  repositories?: {
+    title?: string;
+    description?: string;
+  };
 };
 
 // Detecta el idioma del navegador

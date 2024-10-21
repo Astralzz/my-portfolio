@@ -5,6 +5,7 @@ import TitleSectionDefault from "../components/titles/TitleSectionDefault";
 import { getAnimateFadeItemsRandom } from "../components/graphics/hooks";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import SocialIcon from "../components/icons/SocialIcon";
+import { IoMdMail } from "react-icons/io";
 
 const { list, title } = INFO_APP?.references || {};
 
@@ -52,12 +53,27 @@ const ReferencesView: React.FC = (): JSX.Element => {
 
                       {/* Enlaces */}
                       {links && (
-                        <div className="flex flex-grow p-1">
+                        <div className="flex flex-grow p-1 gap-4">
                           {/* Teléfono */}
                           {links?.tel && (
                             <SocialIcon
                               href={`tel:${links.tel}`}
+                              classNames={{
+                                icon: "text-red-500 dark:text-red-600",
+                              }}
                               Icon={BsFillTelephoneFill}
+                              size={16}
+                            />
+                          )}
+
+                          {/* Email */}
+                          {links?.email && (
+                            <SocialIcon
+                              href={`mailto:${links.email}`}
+                              classNames={{
+                                icon: "text-red-500 dark:text-red-600",
+                              }}
+                              Icon={IoMdMail}
                               size={16}
                             />
                           )}

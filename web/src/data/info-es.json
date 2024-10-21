@@ -157,12 +157,6 @@
         "institution": "Universidad Autónoma del estado de Guerrero",
         "degree": "Licenciatura en Ingeniería de Software",
         "duration": "2019 - 2023"
-      },
-      {
-        "institution": "Universidad Autónoma del estado de Guerrero",
-        "degree": "Licenciatura en Ingeniería de Software",
-        "duration": "2017 - 2019",
-        "url": "#"
       }
     ]
   },
@@ -179,7 +173,7 @@
         }
       },
       {
-        "name": "DR Valentin Acosta Vello",
+        "name": "Dr. Valentin Acosta Vello",
         "role": "Subdirector de la facultad de ingeniería de la Universidad Autónoma de Guerrero",
         "testimonial": "Edain es un desarrollador increíblemente talentoso. Su capacidad para abordar problemas complejos y proponer soluciones eficientes es notable.",
         "links": {
@@ -197,5 +191,9 @@
         }
       }
     ]
+  },
+  "repositories": {
+    "title": "Mis repositorios públicos",
+    "description": "Lista de todos los repositorios públicos directamente desde mi cuenta en gitHub"
   }
 }

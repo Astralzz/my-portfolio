@@ -18,6 +18,10 @@ interface SocialIconProps {
   href: string;
   Icon: IconType;
   size?: number;
+  classNames?: {
+    a?: string;
+    icon?: string;
+  };
 }
 
 /**
@@ -32,25 +36,28 @@ const SocialIcon: React.FC<SocialIconProps> = ({
   href,
   Icon,
   size = 30,
+  classNames,
 }: SocialIconProps): JSX.Element => (
   <motion.a
     href={href}
     {...motionEnlace}
-    className="hover:text-primary transition-colors duration-300"
+    className={`hover:text-primary transition-colors duration-300 ${
+      classNames?.a ?? ""
+    }`}
   >
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       whileHover={{
         scale: 1.2,
-        rotate: 10,
+        rotate: Math.random() >= 0.5 ? 10 : -10,
       }}
       transition={{ type: "spring", stiffness: 300 }}
     >
       <Icon
-        className={
-          "text-gray-900 dark:text-gray-200 hover:text-red-600 dark:hover:text-red-500"
-        }
+        className={`text-gray-900 dark:text-gray-200 hover:text-red-600 dark:hover:text-red-500 ${
+          classNames?.icon ?? ""
+        }`}
         size={size}
       />
     </motion.div>
