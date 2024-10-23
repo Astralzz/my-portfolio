@@ -16,7 +16,7 @@ const { avatar, name, description, enlaces } = INFO_APP?.home || {};
  */
 const HomeView: React.FC = (): JSX.Element => {
   return (
-    <SectionWrapperDefault className="md:min-h-screen">
+    <SectionWrapperDefault className="md:min-h-screen" idElement="home">
       {/* Imagen con sombra y animación de entrada */}
       {avatar?.src && (
         <motion.img

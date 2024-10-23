@@ -11,12 +11,8 @@ const { paragraph } = INFO_APP?.introduction || {};
  * @return {JSX.Element}
  */
 const IntroductionView: React.FC = (): JSX.Element => {
-  // Variables
-  // const ref = React.useRef<HTMLParagraphElement>(null);
-  // const isInView = useInView(ref, { once: true });
-
   return (
-    <SectionWrapperDefault>
+    <SectionWrapperDefault idElement="introduction">
       {/* Párrafo de la introducción */}
       {paragraph && (
         <div

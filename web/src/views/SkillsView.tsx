@@ -32,7 +32,11 @@ const GraphicComponent: React.FC<{
       : GraphicBar;
 
   return (
-    <div className="h-96" data-aos={getAnimateFadeItemsRandom()} data-aos-duration="1500">
+    <div
+      className="h-96"
+      data-aos={getAnimateFadeItemsRandom()}
+      data-aos-duration="1500"
+    >
       <GraphicComponent data={data} isThemeDark={theme === "dark"} />
     </div>
   );
@@ -49,7 +53,7 @@ const SkillsView: React.FC = (): JSX.Element => {
   const theme = useReduxSelector((state) => state.stateTheme.theme);
 
   return (
-    <SectionWrapperDefault>
+    <SectionWrapperDefault idElement="skills">
       {/* Titulo */}
       <TitleSectionDefault title={title} />
 

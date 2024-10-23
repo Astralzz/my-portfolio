@@ -14,7 +14,7 @@ const { list, title } = INFO_APP?.experience || {};
  */
 const ExperienceView: React.FC = (): JSX.Element => {
   return (
-    <SectionWrapperDefault>
+    <SectionWrapperDefault idElement="experience">
       {/* Titulo */}
       <TitleSectionDefault
         title={title}

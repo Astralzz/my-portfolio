@@ -33,7 +33,7 @@ const AchievementsView: React.FC = (): JSX.Element => {
   }, []);
 
   return (
-    <SectionWrapperDefault>
+    <SectionWrapperDefault idElement="achievements">
       {/* Title */}
       <TitleSectionDefault title={title} />
 

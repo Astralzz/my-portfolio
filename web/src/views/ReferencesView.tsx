@@ -17,7 +17,7 @@ const { list, title } = INFO_APP?.references || {};
  */
 const ReferencesView: React.FC = (): JSX.Element => {
   return (
-    <SectionWrapperDefault>
+    <SectionWrapperDefault idElement="references">
       {/* Titulo */}
       <TitleSectionDefault
         title={title}

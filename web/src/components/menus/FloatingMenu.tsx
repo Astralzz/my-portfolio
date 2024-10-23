@@ -1,24 +1,65 @@
 import { css } from "@emotion/css";
 import React, { useState, useCallback, useMemo, useEffect } from "react";
 import { IconType } from "react-icons";
-import { IoSunny } from "react-icons/io5";
-import { Link } from "react-router-dom";
+import { IoCaretBack, IoSunny } from "react-icons/io5";
+import { Link, useLocation } from "react-router-dom";
+import { hashRoutesApp } from "../../route";
+import { FaFilePdf, FaLinkedin, FaMoon } from "react-icons/fa";
+import { PiGithubLogoFill } from "react-icons/pi";
+
+type FloatingMenuItemType = {
+  to?: string;
+  Icon?: IconType;
+  action?: () => void;
+  label?: string;
+  rotateIcon?: number;
+  isTarget?: boolean;
+};
+
+// Menu content
+const renderMenuContent = (item: FloatingMenuItemType) => (
+  <span
+    className={css`
+      color: #ffffff;
+      font-size: 0.5em;
+    `}
+  >
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      {item?.Icon && (
+        <item.Icon
+          style={{
+            width: "1.2em",
+            height: "1.2em",
+            color: "#FFFF",
+            transform: item?.rotateIcon
+              ? `rotate(${item.rotateIcon}deg)`
+              : undefined,
+          }}
+        />
+      )}
+      {item?.label && <p>{item.label}</p>}
+    </div>
+  </span>
+);
 
 // Menu item
 const renderMenuItem = (item: FloatingMenuItemType, toggleMenu: () => void) => {
   // ? Existe to
   if (item?.to) {
     return (
-      <Link to={item.to} className="link-a" onClick={toggleMenu}>
-        <span
-          className={css`
-            color: #ffffff;
-            font-size: 0.5em;
-          `}
-        >
-          {item?.Icon && <item.Icon className="w-5 h-5" />}
-          {item?.label && <p>{item.label}</p>}
-        </span>
+      <Link
+        to={item.to}
+        className="link-a"
+        target={item?.isTarget ? "_blank" : undefined}
+        onClick={toggleMenu}
+      >
+        {renderMenuContent(item)}
       </Link>
     );
   }
@@ -29,19 +70,11 @@ const renderMenuItem = (item: FloatingMenuItemType, toggleMenu: () => void) => {
       <div
         className="link-a hover:cursor-pointer"
         onClick={() => {
-          item?.action && item.action();
+          item.action?.();
           toggleMenu();
         }}
       >
-        <span
-          className={css`
-            color: #ffffff;
-            font-size: 0.5em;
-          `}
-        >
-          {item?.Icon && <item.Icon className="w-5 h-5" />}
-          {item?.label && <p>{item.label}</p>}
-        </span>
+        {renderMenuContent(item)}
       </div>
     );
   }
@@ -49,13 +82,7 @@ const renderMenuItem = (item: FloatingMenuItemType, toggleMenu: () => void) => {
   return <></>;
 };
 
-type FloatingMenuItemType = {
-  to?: string;
-  Icon?: IconType;
-  action?: () => void;
-  label?: string;
-};
-
+// Props
 interface FloatingMenuProps {
   theme?: {
     action: () => void;
@@ -68,6 +95,10 @@ const FloatingMenu: React.FC<FloatingMenuProps> = ({ theme }) => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [menuVisible, setMenuVisible] = useState<boolean>(false);
 
+  // Posición actual del scroll
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const location = useLocation();
+
   // Función para togglear el menu
   const toggleMenu = useCallback(() => setMenuOpen((prev) => !prev), []);
 
@@ -75,23 +106,48 @@ const FloatingMenu: React.FC<FloatingMenuProps> = ({ theme }) => {
   const itemsMenu = useMemo(() => {
     const menuItems: Array<FloatingMenuItemType> = [];
 
-    menuItems.push({ to: "/", Icon: IoSunny, label: "➡️" });
+    // Ruta actual
+    const currentPath = location.pathname;
+
+    // Acciones
+    const toBackward = `${currentPath}#${
+      hashRoutesApp[
+        (currentIndex - 1 + hashRoutesApp.length) % hashRoutesApp.length
+      ]
+    }`;
+    const toForward = `${currentPath}#${
+      hashRoutesApp[(currentIndex + 1) % hashRoutesApp.length]
+    }`;
+
+    // Desplazar atrás
+    menuItems.push({ to: toBackward, Icon: IoCaretBack, rotateIcon: 180 });
 
     // ? Tema
     if (theme?.action)
       menuItems.push({
-        label: theme?.color === "dark" ? "🌙" : "☀️",
+        Icon: theme?.color === "dark" ? FaMoon : IoSunny,
         action: theme.action,
       });
 
     menuItems.push(
-      { to: "/", Icon: IoSunny, label: "📄" },
-      { to: "/", Icon: IoSunny, label: "📱" },
-      { to: "/", Icon: IoSunny, label: "➡️" }
+      // Curriculum en PDF
+      {
+        to: "https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155",
+        Icon: FaLinkedin,
+        isTarget: true,
+      },
+      // Repositorio del proyecto
+      {
+        to: "https://github.com/Astralzz/my-portfolio",
+        isTarget: true,
+        Icon: PiGithubLogoFill,
+      },
+      // Desplazar adelante
+      { to: toForward, Icon: IoCaretBack, rotateIcon: 180 }
     );
 
     return menuItems;
-  }, [theme]);
+  }, [theme, location, currentIndex]);
 
   // Mostrar menú después de 3 segundos
   useEffect(() => {
@@ -101,6 +157,19 @@ const FloatingMenu: React.FC<FloatingMenuProps> = ({ theme }) => {
 
     return () => clearTimeout(timer);
   }, []);
+
+  // Al cambiar hash
+  React.useEffect(() => {
+    // ? Hay un hash (#) en la URL (#home, ..),
+    if (location.hash) {
+      // Removemos el #
+      const hash = location.hash.substring(1);
+      // Buscamos el índice del hash en el array
+      const index = hashRoutesApp.indexOf(hash);
+      // ? Se encontró
+      if (index !== -1) setCurrentIndex(index);
+    }
+  }, [location]);
 
   return (
     <div

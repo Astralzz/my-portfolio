@@ -62,7 +62,7 @@ const RepositoriesView: React.FC = (): JSX.Element => {
   }, [fetchIndex]);
 
   return (
-    <SectionWrapperDefault>
+    <SectionWrapperDefault idElement="repositories">
       {/* Titulo */}
       <TitleSectionDefault
         title={title}
