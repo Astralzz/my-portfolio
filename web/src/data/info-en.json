@@ -1,10 +1,223 @@
 {
   "home": {
     "name": "Edain Jesus Cortez Ceron",
-    "description": "Frontend and Back-end Developer in JavaScript",
+    "description": "Full Stack Developer",
     "avatar": {
-      "src": "https://example.com/avatar.jpg",
+      "src": "https://avatars.githubusercontent.com/u/101297627?v=4",
       "alt": "Avatar of Edain Jesus Cortez Ceron"
+    },
+    "links": {
+      "github": "https://github.com/Astralzz",
+      "linkedin": "https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155",
+      "email": "mailto:dayind@hotmail.com",
+      "facebook": "https://www.facebook.com/lAstralz"
     }
+  },
+  "introduction": {
+    "paragraph": "<p>Hello, my name is <b>Edain Jesús Cortez Cerón</b>, a passionate full stack developer and software engineer with over five years of experience. I specialize in creating scalable and efficient web, mobile, and backend server applications. Throughout my career, I have worked with technologies such as <b>React, Spring, React Native, Vue.js, Laravel, Django, and more</b>. Additionally, I have extensive knowledge of databases like <b>MySQL</b> and <b>ORACLE</b>, allowing me to approach projects holistically, from system architecture to user experience.<br/>I graduated from the Faculty of Engineering at the <b>Universidad Autónoma de Guerrero</b>, where I earned a degree in Computer Engineering.<br/>During my career, I have led teams and developed key solutions for public and private institutions, including platforms for higher education and applications for government agencies. One project I am proud of is <b>UAGro App</b>, a mobile application developed in React Native, with a website and a backend in Laravel, which currently has over 10,000 active users on iOS and Android.<br/>Currently, I am in a new phase as a freelancer while I improve my English proficiency, enabling me to collaborate on international projects, an area where I have already had success previously. My goal is to create solutions that are not only functional but also positively impact users' lives.<br/>I am excited to tackle complex challenges, find innovative solutions, and continue learning about the latest technologies, such as artificial intelligence. I am open to new challenges that will allow me to grow both professionally and personally.<br/><br/><b>Contact me, and let's explore how I can assist you with your next project!</b></p>"
+  },
+  "skills": {
+    "title": "Skills",
+    "languages": {
+      "title": "Languages",
+      "list": [
+        { "name": "JavaScript", "level": 95, "color": "#F7DF1E" },
+        { "name": "TypeScript", "level": 95, "color": "#007ACC" },
+        { "name": "PHP", "level": 90, "color": "#8993BE" },
+        { "name": "Java", "level": 85, "color": "#007396" },
+        { "name": "Python", "level": 50, "color": "#306998" }
+      ]
+    },
+    "frameworks": {
+      "title": "Frameworks",
+      "list": [
+        { "name": "React", "level": 95, "color": "#61DAFB" },
+        { "name": "Vue", "level": 50, "color": "#42b883" },
+        { "name": "Laravel", "level": 95, "color": "#FF2D55" },
+        { "name": "Django", "level": 40, "color": "#092E20" },
+        { "name": "Spring Boot", "level": 60, "color": "#6DB33F" },
+        { "name": "React Native", "level": 95, "color": "#61DAFB" },
+        { "name": "Ionic", "level": 80, "color": "#3880FF" }
+      ]
+    },
+    "databases": {
+      "title": "Databases",
+      "list": [
+        { "name": "MySQL", "level": 95, "color": "#4479A1" },
+        { "name": "Oracle", "level": 60, "color": "#F80000" }
+      ]
+    },
+    "tools": {
+      "title": "Tools",
+      "list": [
+        { "name": "Git", "level": 85, "color": "#F05033" },
+        { "name": "Bootstrap", "level": 90, "color": "#7952B3" },
+        { "name": "Tailwind CSS", "level": 100, "color": "#06B6D4" },
+        { "name": "Markdown", "level": 100, "color": "#000000" },
+        { "name": "Docker", "level": 40, "color": "#2496ED" }
+      ]
+    },
+    "otherSkills": {
+      "title": "",
+      "list": [
+        { "name": "Frontend Development", "level": 90, "color": "#F7DF1E" },
+        { "name": "Backend Development", "level": 90, "color": "#007ACC" },
+        { "name": "Mobile Development", "level": 80, "color": "#61DAFB" }
+      ]
+    }
+  },
+  "achievements": {
+    "title": "Highlighted Achievements",
+    "list": [
+      {
+        "title": "UAGro App",
+        "subtitle": "Official Application of the Autonomous University of Guerrero",
+        "type": "app",
+        "technologies": [
+          "Typescript",
+          "PHP",
+          "React Native",
+          "Laravel",
+          "Oracle"
+        ],
+        "description": "The official application designed to facilitate access to relevant information from the Autonomous University of Guerrero. With a focus on usability, it allows users to check grades, explore educational offerings, and access official programs and departments. It includes the updated menu of the university cafeteria, the latest news and events, and management of academic activities from anywhere through a secure login. Developed in TypeScript and React Native for the frontend, and a robust backend in Laravel with an Oracle database, UAGro App offers an intuitive and efficient experience for the university community.",
+        "links": [
+          {
+            "text": "Official Page",
+            "url": "https://uagroapp.uagro.mx"
+          },
+          {
+            "text": "Play Store",
+            "url": "https://play.google.com/store/apps/details?id=com.astralz.uagroapp"
+          },
+          {
+            "text": "iOS Store",
+            "url": "https://apps.apple.com/us/app/uagro-app/id6475783654"
+          }
+        ]
+      },
+      {
+        "title": "ANUIES",
+        "subtitle": "Prospecting System for Expanding Higher Education Offerings",
+        "type": "web",
+        "technologies": [
+          "Typescript",
+          "PHP",
+          "React",
+          "Laravel",
+          "MySQL",
+          "Tailwind CSS",
+          "Recharts"
+        ],
+        "description": "Government website developed for the National Association of Universities and Higher Education Institutions (ANUIES). The system has three modules that help State Commissions for Higher Education Planning (COEPES) analyze local educational offerings in upper secondary and higher education. It facilitates the prospecting of enrollment growth in higher education through an algorithm designed by ANUIES and allows for setting goals and strategies for each state, as well as sharing best practices among states.",
+        "links": [
+          {
+            "text": "Official Page",
+            "url": "https://ampliacioncobertura.anuies.mx/inicio"
+          }
+        ]
+      },
+      {
+        "title": "Informe UAGro",
+        "subtitle": "Web and Mobile Platform for Managing the 2024 UAGro Report Event",
+        "type": "web",
+        "technologies": [
+          "Typescript",
+          "PHP",
+          "React",
+          "React Native",
+          "Laravel",
+          "MySQL",
+          "Tailwind CSS",
+          "Dompdf",
+          "React-QR"
+        ],
+        "description": "Informe UAGro is a mobile application and web platform designed for the report event of the Autonomous University of Guerrero. Developed with React, React Native, and Laravel, it offers a secure, encrypted, and reusable environment for managing invitations through unique tokens, as well as sending personalized emails. It uses MySQL as a database and Tailwind CSS for responsive design. Additionally, it incorporates DomPDF for generating unique and personalized invitations in PDF format and React-QR for creating QR codes, thereby facilitating access to relevant information during the event.",
+        "links": [
+          {
+            "text": "Official Page",
+            "url": "https://informerector.uagro.mx"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Work Experience",
+    "list": [
+      {
+        "company": {
+          "abbreviations": "SISDAI",
+          "name": "Design and Accessibility System for Research"
+        },
+        "role": "Frontend Developer",
+        "duration": "December 2023 - Present",
+        "description": "In collaboration with the National Council of Science and Technology (<b>Conacyt</b>) and the Faculty of Chemical Biological Sciences of the Autonomous University of Guerrero (<b>UAGro</b>), I develop accessible web pages for the Design and Accessibility System for Research (<b>SISDAI</b>), using technologies such as Vue.js and JavaScript. Additionally, I act as an intermediary between both institutions, facilitating communication and coordination between teams via Slack. This part-time project has allowed me to combine both technical and management skills, significantly contributing to the success of the system and improving accessibility for researchers and scientists."
+      },
+      {
+        "company": {
+          "abbreviations": "DGTID",
+          "name": "General Directorate of Innovation and Digital Technologies"
+        },
+        "role": "Full Stack Developer",
+        "duration": "January 2023 - January 2025",
+        "description": "I have actively participated in various technology development projects, including the creation of websites, mobile applications, servers, and databases. With a multidisciplinary approach, I have worked with technologies such as <b>React, Laravel, React Native, MySQL, Oracle</b>, among others. My experience ranges from designing and managing databases to developing servers and backends, areas in which I specialize. Among the most relevant projects I have collaborated on are <b>UAGro App</b> and the <b>Prospecting System for Expanding Higher Education Offerings</b>, key platforms that have driven the digital transformation of the university, optimizing its services and facilitating access to technology for the university community."
+      },
+      {
+        "company": {
+          "abbreviations": "UAGRO",
+          "name": "Autonomous University of Guerrero"
+        },
+        "role": "Java Language Instructor",
+        "duration": "February 2002 - January 2023",
+        "description": "During my last year as a student at the Autonomous University of Guerrero (UAGro), I was part of an academic support program where I taught Java classes to other higher education students. Through this program, I was selected to help my peers strengthen their programming skills, specifically in Java and software development concepts. My role included explaining data structures and principles of object-oriented programming, using practical projects to enhance learning. This experience not only allowed me to reinforce my own knowledge but also to develop teaching skills and collaborate with other students."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education and Certifications",
+    "list": [
+      {
+        "institution": "Autonomous University of the State of Guerrero",
+        "degree": "Bachelor's Degree in Software Engineering",
+        "duration": "2019 - 2023"
+      }
+    ]
+  },
+  "references": {
+    "title": "References and Testimonials",
+    "list": [
+      {
+        "name": "M.A. David León Quiroz",
+        "role": "Head of the Department of Information Systems and Digital Transformation",
+        "testimonial": "Edain has demonstrated an exceptional level of technical skill and commitment in every project.",
+        "links": {
+          "tel": "+527471104674",
+          "email": "dleon@uagro.mx"
+        }
+      },
+      {
+        "name": "Dr. Valentin Acosta Vello",
+        "role": "Deputy Director of the Faculty of Engineering at the Autonomous University of Guerrero",
+        "testimonial": "Edain is an incredibly talented developer. His ability to tackle complex problems and propose efficient solutions is remarkable.",
+        "links": {
+          "tel": "+527471622688",
+          "email": "valentinastavastav@uagro.mx"
+        }
+      },
+      {
+        "name": "Dr. Alfredo Méndez Bahena",
+        "role": "Director of the Faculty of Chemical and Biological Sciences at the Autonomous University of Guerrero",
+        "testimonial": "Edain has been an excellent collaborator during the implementation of the web pages for Conacyt. He has proven to be very professional and dedicated.",
+        "links": {
+          "tel": "+527474590701",
+          "email": "amendezbahena@gmail.com"
+        }
+      }
+    ]
+  },
+  "repositories": {
+    "title": "My Public Repositories",
+    "description": "List of all public repositories directly from my GitHub account"
   }
 }

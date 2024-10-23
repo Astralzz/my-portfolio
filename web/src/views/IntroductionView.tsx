@@ -19,13 +19,12 @@ const IntroductionView: React.FC = (): JSX.Element => {
     <SectionWrapperDefault>
       {/* Párrafo de la introducción */}
       {paragraph && (
-        <p
+        <div
           data-aos="fade-up"
           data-aos-duration="1500"
           className="text-lg text-gray-900 dark:text-gray-200 text-justify sm:text-xl max-w-2xl mb-6"
-        >
-          {paragraph}
-        </p>
+          dangerouslySetInnerHTML={{ __html: paragraph }}
+        ></div>
       )}
     </SectionWrapperDefault>
   );

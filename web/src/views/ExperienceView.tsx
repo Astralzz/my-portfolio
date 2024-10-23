@@ -34,13 +34,13 @@ const ExperienceView: React.FC = (): JSX.Element => {
               >
                 {/* Encabezado */}
                 <div
-                  className="flex flex-col mb:w-4/12 w-full mb-4 md:mb-0 md:mx-4 mx-0 justify-center border-r-0 md:border-r-2 border-red-500 dark:border-red-600"
+                  className="flex flex-col w-full md:w-3/12 mb-4 md:mb-0 md:mx-4 mx-0 justify-center border-r-0 md:border-r-2 border-red-500 dark:border-red-600"
                   data-aos={getAnimateFadeItemsRandom()}
                   data-aos-duration="1500"
                 >
                   {/* Compañía */}
                   {company && (
-                    <div className="md:flex gap-0 md:gap-6 mb-2 pb-1 md:px-4 border-b-2 md:border-b-2 border-red-500 dark:border-red-600 items-center">
+                    <div className="-md:flex gap-0 md:gap-6 mb-2 pb-1 md:px-2 border-b-2 md:border-b-2 border-red-500 dark:border-red-600 items-center">
                       {/* Abreviatura */}
                       {company?.abbreviations && (
                         <p className="font-bold text-lg text-red-500 dark:text-red-600">
@@ -56,11 +56,11 @@ const ExperienceView: React.FC = (): JSX.Element => {
 
                   {/* Duración y rol */}
                   {(duration || role) && (
-                    <div className="flex md:flex-row flex-row md:gap-2 gap-3 md:px-4 text-xs items-center">
+                    <div className="flex md:flex-col flex-row md:gap-2 gap-3 md:px-2 text-xs items-center md:items-start">
                       {/* Rol */}
                       {role && <p className="">{role}</p>}
                       {/* Separador */}
-                      <div className="-hidden -md:block bg-red-500 dark:bg-red-600 w-2 h-0.5"></div>
+                      <div className="md:hidden block bg-red-500 dark:bg-red-600 w-2 h-0.5"></div>
                       {/* Duración */}
                       {duration && <p>{duration}</p>}
                     </div>
@@ -70,12 +70,11 @@ const ExperienceView: React.FC = (): JSX.Element => {
                 {/* Descripción */}
                 {description && (
                   <div
-                    className="mb:w-8/12 w-full text-justify text-sm"
+                    className="w-full md:w-9/12 text-justify text-sm"
                     data-aos={getAnimateFadeItemsRandom()}
                     data-aos-duration="1500"
-                  >
-                    <p className="">{description}</p>
-                  </div>
+                    dangerouslySetInnerHTML={{ __html: description }}
+                  ></div>
                 )}
               </div>
             ))}

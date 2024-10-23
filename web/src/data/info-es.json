@@ -14,16 +14,16 @@
     }
   },
   "introduction": {
-    "paragraph": "Soy Edain, desarrollador full stack con más de 5 años de experiencia en la creación de aplicaciones web y móviles. A lo largo de mi carrera, he trabajado con tecnologías como React, Vue.js, Laravel y Tailwind CSS, que me han permitido desarrollar soluciones escalables y eficientes. Actualmente, estoy inmerso en un proyecto de innovación en la industria de la salud, donde mi equipo y yo desarrollamos herramientas para mejorar la comunicación entre pacientes y profesionales médicos. Hablo español e inglés, lo que me ha permitido colaborar en proyectos internacionales y mantenerme al día con las últimas tendencias tecnológicas. Mi motivación principal es la resolución de problemas complejos a través del código, y uno de mis mayores logros fue liderar el desarrollo de un sistema de gestión de eventos que fue clave para el éxito de una conferencia nacional. Fuera del trabajo, disfruto explorando nuevas tecnologías y aprendiendo sobre inteligencia artificial, lo que complementa mi interés por el desarrollo tecnológico."
+    "paragraph": "<p>Hola, mi nombre es <b>Edain Jesús Cortez Cerón</b>, ingeniero de software y desarrollador full stack apasionado, con más de cinco años de experiencia. Me especializo en la creación de aplicaciones web, móviles y servidores backend escalables y eficientes. A lo largo de mi carrera, he trabajado con tecnologías como <b>React, Spring, React Native, Vue.js, Laravel, Django y más</b>. Además, tengo un amplio conocimiento en bases de datos como <b>MySQL</b> y <b>ORACLE</b>, lo que me permite abordar proyectos de manera integral, desde la arquitectura de sistemas hasta la experiencia del usuario.<br/>Soy egresado de la Facultad de Ingeniería de la <b>Universidad Autónoma de Guerrero</b>, donde obtuve el título de Ingeniero en Computación.<br/>Durante mi trayectoria, he liderado equipos y desarrollado soluciones clave para instituciones públicas y privadas, incluyendo plataformas para la educación superior y aplicaciones para organismos gubernamentales. Un proyecto que me enorgullece es <b>UAGro App</b>, una aplicación móvil desarrollada en React Native, con una página web y un backend en Laravel, que actualmente cuenta con más de 10,000 usuarios activos en iOS y Android.<br/>Actualmente, me encuentro en una nueva etapa como freelancer mientras perfecciono mi nivel de inglés, lo que me permitirá colaborar en proyectos internacionales, área en la que ya he tenido éxito previamente. Mi objetivo es crear soluciones que no solo sean funcionales, sino que también impacten positivamente la vida de los usuarios.<br/>Estoy emocionado por enfrentar desafíos complejos, encontrar soluciones innovadoras y seguir aprendiendo sobre las últimas tecnologías, como la inteligencia artificial. Estoy abierto a nuevos retos que me permitan crecer profesional y personalmente.<br/><br/><b>¡Contáctame y exploremos cómo puedo ayudarte en tu próximo proyecto!</b></p>"
   },
   "skills": {
     "title": "Habilidades",
     "languages": {
       "title": "Lenguajes",
       "list": [
-        { "name": "JavaScript", "level": 90, "color": "#F7DF1E" },
-        { "name": "TypeScript", "level": 90, "color": "#007ACC" },
-        { "name": "PHP", "level": 80, "color": "#8993BE" },
+        { "name": "JavaScript", "level": 95, "color": "#F7DF1E" },
+        { "name": "TypeScript", "level": 95, "color": "#007ACC" },
+        { "name": "PHP", "level": 90, "color": "#8993BE" },
         { "name": "Java", "level": 85, "color": "#007396" },
         { "name": "Python", "level": 50, "color": "#306998" }
       ]
@@ -31,20 +31,20 @@
     "frameworks": {
       "title": "frameworks",
       "list": [
-        { "name": "React", "level": 90, "color": "#61DAFB" },
+        { "name": "React", "level": 95, "color": "#61DAFB" },
         { "name": "Vue", "level": 50, "color": "#42b883" },
-        { "name": "Laravel", "level": 90, "color": "#FF2D55" },
+        { "name": "Laravel", "level": 95, "color": "#FF2D55" },
         { "name": "Django", "level": 40, "color": "#092E20" },
-        { "name": "Spring Boot", "level": 50, "color": "#6DB33F" },
-        { "name": "React Native", "level": 90, "color": "#61DAFB" },
+        { "name": "Spring Boot", "level": 60, "color": "#6DB33F" },
+        { "name": "React Native", "level": 95, "color": "#61DAFB" },
         { "name": "Ionic", "level": 80, "color": "#3880FF" }
       ]
     },
     "databases": {
       "title": "Bases de datos",
       "list": [
-        { "name": "MySQL", "level": 80, "color": "#4479A1" },
-        { "name": "Oracle", "level": 50, "color": "#F80000" }
+        { "name": "MySQL", "level": 95, "color": "#4479A1" },
+        { "name": "Oracle", "level": 60, "color": "#F80000" }
       ]
     },
     "tools": {
@@ -71,13 +71,19 @@
     "list": [
       {
         "title": "UAGro App",
-        "subtitle": "Aplicación oficial de la universidad autónoma de Guerreo",
+        "subtitle": "Aplicación oficial de la Universidad Autónoma de Guerrero",
         "tipo": "app",
-        "technologies": ["react", "laravel", "oracle"],
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus.",
+        "technologies": [
+          "Typescript",
+          "PHP",
+          "React native",
+          "Laravel",
+          "Oracle"
+        ],
+        "description": "Aplicación oficial diseñada para facilitar el acceso a información relevante de la Universidad Autónoma de Guerrero. Con un enfoque en la usabilidad, permite a los usuarios consultar calificaciones, explorar la oferta educativa y acceder a programas y departamentos oficiales. Incluye el menú actualizado del comedor universitario, las últimas noticias y eventos, y gestión de actividades académicas desde cualquier lugar a través de un inicio de sesión seguro. Desarrollada en TypeScript y React Native para el frontend, y un backend robusto en Laravel con base de datos Oracle, UAGro App ofrece una experiencia intuitiva y eficiente para la comunidad universitaria.",
         "links": [
           {
-            "text": "Pagina oficial",
+            "text": "Página oficial",
             "url": "https://uagroapp.uagro.mx"
           },
           {
@@ -94,24 +100,42 @@
         "title": "ANUIES",
         "subtitle": "Sistema de prospección para la ampliación de la oferta de educación superior",
         "tipo": "web",
-        "technologies": ["react", "laravel", "oracle"],
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus.",
+        "technologies": [
+          "Typescript",
+          "PHP",
+          "React",
+          "Laravel",
+          "MySQL",
+          "Tailwind CSS",
+          "Recharts"
+        ],
+        "description": "Página web gubernamental desarrollada para la Asociación Nacional de Universidades e Instituciones de Educación Superior (ANUIES). El sistema cuenta con tres módulos que ayudan a las Comisiones Estatales para la Planificación de la Educación Superior (COEPES) a analizar la oferta educativa local en educación media superior y superior. Facilita la prospección del crecimiento de la matrícula en educación superior a través de un algoritmo diseñado por ANUIES, y permite definir metas y estrategias para cada entidad federativa, así como compartir buenas prácticas entre los estados.",
         "links": [
           {
-            "text": "Pagina oficial",
+            "text": "Página oficial",
             "url": "https://ampliacioncobertura.anuies.mx/inicio"
           }
         ]
       },
       {
-        "title": "Informe",
-        "subtitle": "Pagina web del el informe del rector Javier Saldaña",
+        "title": "Informe UAGro",
+        "subtitle": "Plataforma web y móvil para gestionar el evento del informe 2024 de la UAGro",
         "tipo": "web",
-        "technologies": ["react", "laravel", "oracle"],
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus.",
+        "technologies": [
+          "Typescript",
+          "PHP",
+          "React",
+          "React native",
+          "Laravel",
+          "MySQL",
+          "Tailwind CSS",
+          "Dompdf",
+          "React-QR"
+        ],
+        "description": "Informe UAGro es una aplicación móvil y plataforma web diseñada para el evento del informe de la Universidad Autónoma de Guerrero. Desarrollada con React, React Native y Laravel, ofrece un entorno seguro, encriptado y reutilizable para la gestión de invitaciones a través de tokens únicos, así como el envío de correos electrónicos personalizados. Utiliza MySQL como base de datos y Tailwind CSS para un diseño responsivo. Además, incorpora DomPDF para la generación de invitaciones únicas y personalizadas en PDF y React-QR para la creación de códigos QR, facilitando así el acceso a información relevante durante el evento.",
         "links": [
           {
-            "text": "Pagina oficial",
+            "text": "Página oficial",
             "url": "https://informerector.uagro.mx"
           }
         ]
@@ -126,9 +150,9 @@
           "abbreviations": "SISDAI",
           "name": "Sistema de Diseño y Accesibilidad para la Investigación"
         },
-        "role": "Desarrollador Frond end",
+        "role": "Desarrollador Front end",
         "duration": "Diciembre 2023 - Actualidad",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus."
+        "description": "En colaboración con el Consejo Nacional de Ciencia y Tecnología (<b>Conacyt</b>) y la Facultad de Ciencias Químico Biológicas de la Universidad Autónoma de Guerrero (<b>UAGro</b>), desarrollo páginas web accesibles para el Sistema de Diseño y Accesibilidad para la Investigación (<b>SISDAI</b>), utilizando tecnologías como Vue.js y JavaScript. Además, actúo como intermediario entre ambas instituciones, facilitando la comunicación y coordinación de los equipos a través de Slack. Este proyecto a tiempo parcial me ha permitido combinar tanto habilidades técnicas como de gestión, contribuyendo significativamente al éxito del sistema y mejorando la accesibilidad para investigadores y científicos."
       },
       {
         "company": {
@@ -137,7 +161,7 @@
         },
         "role": "Desarrollador Full Stack",
         "duration": "Enero 2023 - Enero 2025",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus."
+        "description": "He participado activamente en diversos proyectos de desarrollo tecnológico, incluyendo la creación de sitios web, aplicaciones móviles, servidores y bases de datos. Con un enfoque multidisciplinario, he trabajado con tecnologías como <b>React, Laravel, React Native, MySQL, Oracle</b>, entre otras. Mi experiencia abarca desde el diseño y administración de bases de datos hasta el desarrollo de servidores y backend, áreas en las que me especializo. Entre los proyectos más relevantes en los que he colaborado destacan <b>UAGro App</b> y el <b>Sistema de Prospección para la Ampliación de la Oferta Educativa Superior</b>, plataformas clave que han impulsado la transformación digital de la universidad, optimizando sus servicios y facilitando el acceso a la tecnología para la comunidad universitaria."
       },
       {
         "company": {
@@ -146,7 +170,7 @@
         },
         "role": "Maestro del lenguaje java",
         "duration": "Febrero 2002 - Enero 2023",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid sapiente neque corporis eveniet esse assumenda repellat dolor. Dolor error  quas neque tempore quisquam, quae nesciunt excepturi vero veniam necessitatibus."
+        "description": "Durante mi último año como estudiante en la Universidad Autónoma de Guerrero (UAGro), formé parte de un programa de apoyo académico donde impartí clases de Java a otros estudiantes de nivel superior. A través de este programa, fui seleccionado para ayudar a mis compañeros a fortalecer sus habilidades en programación, específicamente en Java y conceptos de desarrollo de software. Mi rol incluía la explicación de estructuras de datos y principios de programación orientada a objetos, utilizando proyectos prácticos para mejorar el aprendizaje. Esta experiencia no solo me permitió afianzar mis propios conocimientos, sino también desarrollar habilidades en la enseñanza y en la colaboración con otros estudiantes."
       }
     ]
   },
@@ -166,10 +190,10 @@
       {
         "name": "M.A. David León Quiroz",
         "role": "Jefe del Departamento de Sistemas de Información y Transformación Digital",
-        "testimonial": "Edain ha demostrado un nivel excepcional de habilidad técnica y compromiso en cada proyecto. Su trabajo en el sistema de gestión de eventos fue crucial para su éxito.",
+        "testimonial": "Edain ha demostrado un nivel excepcional de habilidad técnica y compromiso en cada proyecto.",
         "links": {
-          "tel": "7471633315",
-          "email": "davidleonquiroz@uagro.mx"
+          "tel": "+527471104674",
+          "email": "dleon@uagro.mx"
         }
       },
       {
@@ -177,17 +201,17 @@
         "role": "Subdirector de la facultad de ingeniería de la Universidad Autónoma de Guerrero",
         "testimonial": "Edain es un desarrollador increíblemente talentoso. Su capacidad para abordar problemas complejos y proponer soluciones eficientes es notable.",
         "links": {
-          "tel": "7471633315",
+          "tel": "+527471622688",
           "email": "valentinastavastav@uagro.mx"
         }
       },
       {
-        "name": "M.C. Marco Castro Vera",
-        "role": "Coordinador del programa de Ingeniería de Software en la Universidad Autónoma de Guerrero",
-        "testimonial": "Edain ha sido un excelente líder y colaborador durante la implementación del programa. Su trabajo en el sistema de gestión de eventos fue crucial para su éxito.",
+        "name": "Dr. Alfredo Méndez Bahena",
+        "role": "Director de Facultad de Ciencias Químico Biológicas de la Universidad Autónoma de Guerrero",
+        "testimonial": "Edain ha sido un excelente colaborador durante la implementación en las paginas web para el Conacyt, A demostrador ser muy profecional y aplicado",
         "links": {
-          "tel": "7471633315",
-          "email": "marcocastrovera@uagro.mx"
+          "tel": "+527474590701",
+          "email": "amendezbahena@gmail.com"
         }
       }
     ]

@@ -88,7 +88,7 @@ const ModalDefault: React.FC<ModalDefaultProps> = ({
       closeIcon={closeIcon}
       center
     >
-      <div className="flex flex-col max-w-md">
+      <div className="flex flex-col max-w-lg">
         {/* Barra superior */}
         <div
           className="flex justify-between items-center p-4 h-14"

@@ -99,8 +99,6 @@ const userLanguage = navigator.language;
 // Carga el JSON en ingles
 let INFO_APP: JsonDataType = jsonEn;
 
-INFO_APP = jsonEs as JsonDataType; // borrar
-
 let lenguaje: "es" | "en" = "en";
 
 // ? Es español
@@ -110,6 +108,6 @@ if (userLanguage.startsWith("es")) {
 }
 
 // Idioma
-export const LENGUAJE_BROWSER = lenguaje;
+export const LENGUAJE_BROWSER: "es" | "en" = lenguaje ?? "en";
 
 export default INFO_APP;

@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import INFO_APP from "../../hooks/info-data";
+import INFO_APP, { LENGUAJE_BROWSER } from "../../hooks/info-data";
 import SectionWrapperDefault from "../../components/sections/SectionWrapperDefault";
 import TitleSectionDefault from "../../components/titles/TitleSectionDefault";
 import GitHubRepo from "../../models/GitHubRepoModel";
@@ -7,7 +7,6 @@ import { fetchGitHubRepoIndex } from "../../api/gitHubRepoApis";
 import RepositoryCard from "./RepositoryCard";
 import { AiOutlineLoading } from "react-icons/ai";
 import { motion } from "framer-motion";
-import { getAnimateFadeItemsRandom } from "../../components/graphics/hooks";
 
 const { title, description } = INFO_APP?.repositories || {};
 
@@ -98,7 +97,7 @@ const RepositoriesView: React.FC = (): JSX.Element => {
                 className="px-2 py-1 text-xs rounded-md shadow-md hover:cursor-pointer hover:opacity-70 dark:bg-gray-800 bg-red-300 text-gray-900 dark:text-gray-200 font-semibold"
                 onClick={handleLoadMore}
               >
-                Mostrar más
+                {LENGUAJE_BROWSER === "es" ? "Mostrar más" : "Show more"}
               </motion.p>
             </div>
           )}
