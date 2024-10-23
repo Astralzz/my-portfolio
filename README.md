@@ -1,18 +1,31 @@
-# MI PORTAFOLIO
+# Mi Portafolio Web
 
-> EDAIN JESUS CORTEZ CERON
->
-> **Contacto**
->
-> * [GitHub](https://github.com/Astralzz)
-> * [Facebook](https://www.facebook.com/lAstralz)
-> * [LinkedIn](https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155)
-> * [Email](mailto:dayind@hotmail.com)
->
-> **Enlaces**
->
-> * [Repositorio de este proyecto](https://github.com/Astralzz/my-portfolio)
->
+EDAIN JESUS CORTEZ CERON
+
+## Contacto
+
+* [GitHub](https://github.com/Astralzz)
+* [Facebook](https://www.facebook.com/lAstralz)
+* [LinkedIn](https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155)
+* [Email](mailto:dayind@hotmail.com)
+
+## Introducción
+
+¡Bienvenido a mi portafolio web! Este proyecto ha sido diseñado para mostrar mis habilidades, proyectos y experiencia en el desarrollo web. El código de este portafolio es de uso libre, por lo que cualquier persona puede verlo, utilizarlo, adaptarlo y mejorarlo según sus propias necesidades.
+
+Si decides utilizar parte del código o la estructura de este proyecto en tus propios trabajos, te agradecería mucho que me dieras el crédito correspondiente mencionando este repositorio o haciendo referencia a mi portafolio. Aunque no es obligatorio, es una excelente manera de apoyar el esfuerzo invertido en este proyecto.
+
+Además, si te ha sido útil o consideras que es un recurso valioso, te invito a darle una estrella ⭐ en GitHub. Esto me ayudará a continuar mejorando y compartiendo más proyectos abiertos a la comunidad. Tu apoyo será muy apreciado y motivador.
+
+## Características
+
+* Diseño moderno y responsivo.
+* Secciones para mostrar experiencia, proyectos y habilidades.
+* Implementación adaptable para otros proyectos.
+
+## Contribuciones
+
+Si encuentras algún error, tienes sugerencias o mejoras, siéntete libre de abrir un _pull request_ o crear un _issue_. Me encantaría ver cómo puedes contribuir y mejorar este proyecto. Toda colaboración es bienvenida.
 
 ---
 
