@@ -70,7 +70,12 @@ const RepositoryCard: React.FC<RepositoryProps> = ({ card }) => {
           {/* Titulo */}
           {name && (
             <h2 className="text-gray-900 dark:text-gray-200 text-start text-xl font-bold">
-              {limitarCadena(name.replace(/[_\-&]/g, " "), 23)}
+              {limitarCadena(
+                name
+                  .replace(/[_.\-&]/g, " ") // Car especiales por espacios
+                  .replace(/([a-z])([A-Z])/g, "$1 $2"), // Separa palabras en camel case, insertando un espacio antes de cada letra mayúscula.
+                23
+              )}
             </h2>
           )}
         </div>

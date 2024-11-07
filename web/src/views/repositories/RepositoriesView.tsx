@@ -8,7 +8,7 @@ import RepositoryCard from "./RepositoryCard";
 import { AiOutlineLoading } from "react-icons/ai";
 import { motion } from "framer-motion";
 
-const { title, description } = INFO_APP?.repositories || {};
+const { title } = INFO_APP?.repositories || {};
 
 // Cargando
 const LoadingComponent: React.FC = (): JSX.Element => (
@@ -80,6 +80,9 @@ const RepositoriesView: React.FC = (): JSX.Element => {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
             {list &&
               list
+                .filter(
+                  ({ name }) => !["astralzz.github.io"].includes(name || "")
+                )
                 .slice(0, visibleCount)
                 .map((card, i) => <RepositoryCard key={i} card={card} />)}
           </div>
