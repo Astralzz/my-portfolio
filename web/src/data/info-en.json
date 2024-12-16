@@ -1,7 +1,7 @@
 {
   "home": {
     "name": "Edain Jesus Cortez Ceron",
-    "description": "Full Stack Developer",
+    "description": "Software Engineer & Full Stack Developer",
     "avatar": {
       "src": "https://avatars.githubusercontent.com/u/101297627?v=4",
       "alt": "Avatar of Edain Jesus Cortez Ceron"
@@ -21,48 +21,48 @@
     "languages": {
       "title": "Languages",
       "list": [
-        { "name": "JavaScript", "level": 95, "color": "#F7DF1E" },
-        { "name": "TypeScript", "level": 95, "color": "#007ACC" },
-        { "name": "PHP", "level": 90, "color": "#8993BE" },
-        { "name": "Java", "level": 85, "color": "#007396" },
-        { "name": "Python", "level": 50, "color": "#306998" }
+        { "name": "JavaScript", "level": 10, "color": "#F7DF1E" },
+        { "name": "TypeScript", "level": 10, "color": "#007ACC" },
+        { "name": "PHP", "level": 9, "color": "#8993BE" },
+        { "name": "Java", "level": 8, "color": "#007396" },
+        { "name": "Python", "level": 5, "color": "#306998" }
       ]
     },
     "frameworks": {
       "title": "Frameworks",
       "list": [
-        { "name": "React", "level": 95, "color": "#61DAFB" },
-        { "name": "Vue", "level": 50, "color": "#42b883" },
-        { "name": "Laravel", "level": 95, "color": "#FF2D55" },
-        { "name": "Django", "level": 40, "color": "#092E20" },
-        { "name": "Spring Boot", "level": 60, "color": "#6DB33F" },
-        { "name": "React Native", "level": 95, "color": "#61DAFB" },
-        { "name": "Ionic", "level": 80, "color": "#3880FF" }
+        { "name": "React", "level": 10, "color": "#61DAFB" },
+        { "name": "Vue", "level": 5, "color": "#42b883" },
+        { "name": "Laravel", "level": 10, "color": "#FF2D55" },
+        { "name": "Django", "level": 4, "color": "#092E20" },
+        { "name": "Spring Boot", "level": 6, "color": "#6DB33F" },
+        { "name": "React Native", "level": 10, "color": "#61DAFB" },
+        { "name": "Ionic", "level": 8, "color": "#3880FF" }
       ]
     },
     "databases": {
       "title": "Databases",
       "list": [
-        { "name": "MySQL", "level": 95, "color": "#4479A1" },
-        { "name": "Oracle", "level": 60, "color": "#F80000" }
+        { "name": "MySQL", "level": 10, "color": "#4479A1" },
+        { "name": "Oracle", "level": 6, "color": "#F80000" }
       ]
     },
     "tools": {
       "title": "Tools",
       "list": [
-        { "name": "Git", "level": 85, "color": "#F05033" },
-        { "name": "Bootstrap", "level": 90, "color": "#7952B3" },
-        { "name": "Tailwind CSS", "level": 100, "color": "#06B6D4" },
-        { "name": "Markdown", "level": 100, "color": "#000000" },
-        { "name": "Docker", "level": 40, "color": "#2496ED" }
+        { "name": "Git", "level": 8, "color": "#F05033" },
+        { "name": "Bootstrap", "level": 9, "color": "#7952B3" },
+        { "name": "Tailwind CSS", "level": 10, "color": "#06B6D4" },
+        { "name": "Markdown", "level": 10, "color": "#000000" },
+        { "name": "Docker", "level": 4, "color": "#2496ED" }
       ]
     },
     "otherSkills": {
       "title": "",
       "list": [
-        { "name": "Frontend Development", "level": 90, "color": "#F7DF1E" },
-        { "name": "Backend Development", "level": 90, "color": "#007ACC" },
-        { "name": "Mobile Development", "level": 80, "color": "#61DAFB" }
+        { "name": "Frontend Development", "level": 9, "color": "#F7DF1E" },
+        { "name": "Backend Development", "level": 9, "color": "#007ACC" },
+        { "name": "Mobile Development", "level": 8, "color": "#61DAFB" }
       ]
     }
   },
@@ -207,7 +207,7 @@
       },
       {
         "name": "Dr. Alfredo Méndez Bahena",
-        "role": "Director of the Faculty of Chemical and Biological Sciences at the Autonomous University of Guerrero",
+        "role": "Professor and researcher at the Autonomous University of Guerrero and Technical Lead of PRONAII 318971",
         "testimonial": "Edain has been an excellent collaborator during the implementation of the web pages for Conacyt. He has proven to be very professional and dedicated.",
         "links": {
           "tel": "+527474590701",

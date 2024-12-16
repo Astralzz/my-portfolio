@@ -20,7 +20,7 @@ const GraphicComponent: React.FC<{
   theme: ThemeAppType;
 }> = ({ data, type = "bar", theme }): JSX.Element => {
   // Componente
-  const GraphicComponent =
+  const Component =
     type === "bar"
       ? GraphicBar
       : type === "line"
@@ -37,7 +37,7 @@ const GraphicComponent: React.FC<{
       data-aos={getAnimateFadeItemsRandom()}
       data-aos-duration="1500"
     >
-      <GraphicComponent data={data} isThemeDark={theme === "dark"} />
+      <Component data={data} isThemeDark={theme === "dark"} />
     </div>
   );
 };

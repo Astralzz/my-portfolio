@@ -1,18 +1,10 @@
 import React from "react";
+import { AreaChart, Area, ResponsiveContainer } from "recharts";
 import {
-  AreaChart,
-  Area,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-} from "recharts";
-import {
-  getColorFontGraphic,
   getColorGraphic,
-  getRenderTooltipContent,
-  getTooltipStyle,
   GraphicAppProps,
+  renderChartComponents,
+  renderChartTitle,
 } from "./hooks";
 
 const GraphicArea: React.FC<GraphicAppProps> = ({
@@ -21,11 +13,8 @@ const GraphicArea: React.FC<GraphicAppProps> = ({
 }): JSX.Element => {
   return (
     <div className="mb-4">
-      {title && (
-        <p className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-2">
-          {title}
-        </p>
-      )}
+      {/* Titulo */}
+      {renderChartTitle(title)}
       {list && (
         <div>
           <ResponsiveContainer width="100%" height={300}>
@@ -33,18 +22,7 @@ const GraphicArea: React.FC<GraphicAppProps> = ({
               data={list}
               margin={{ top: 10, right: 30, left: 20, bottom: 5 }}
             >
-              <XAxis
-                dataKey="name"
-                tick={{ fill: getColorFontGraphic(isThemeDark), fontSize: 10 }}
-              />
-              <YAxis
-                tickFormatter={(value) => `${value}%`}
-                tick={{ fill: getColorFontGraphic(isThemeDark), fontSize: 8 }}
-              />
-              <Tooltip
-                contentStyle={getTooltipStyle(isThemeDark)}
-                content={(props) => getRenderTooltipContent(isThemeDark, props)}
-              />
+              {renderChartComponents(isThemeDark)}
               <Area
                 type="monotone"
                 dataKey="level"

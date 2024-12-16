@@ -1,6 +1,4 @@
-# Mi Portafolio Web
-
-EDAIN JESUS CORTEZ CERON
+# Mi Portafolio Web - Edain Jesus Cortez Ceron
 
 ## Contacto
 
@@ -27,14 +25,24 @@ Además, si te ha sido útil o consideras que es un recurso valioso, te invito a
 
 Si encuentras algún error, tienes sugerencias o mejoras, siéntete libre de abrir un _pull request_ o crear un _issue_. Me encantaría ver cómo puedes contribuir y mejorar este proyecto. Toda colaboración es bienvenida.
 
+## The MIT License (MIT)
+
+Copyright (c) [2024] [Edain Jesus Cortez Ceron]
+
+Se concede permiso, de manera gratuita, a cualquier persona que obtenga una copia del software y los archivos de documentación asociados (el "Software"), para usar el Software sin restricciones, incluyendo sin limitación los derechos a usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y para permitir a las personas a las que se les proporcione el Software hacer lo mismo, bajo las siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso deben incluirse en todas las copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A LAS GARANTÍAS DE COMERCIABILIDAD, APTITUD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES POR CUALQUIER RECLAMO, DAÑO O CUALQUIER OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O DE OTRA MANERA, DERIVADA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.
+
 ---
 
 ## WEB
 
 ### **Tecnologías usadas**
 
-> * React
-> * Typescript
+> * **React**: Librería para construir interfaces de usuario.
+> * **Typescript**: Lenguaje basado en JavaScript que añade tipado estático a la programación.
 
 ### **Librerías usadas**
 

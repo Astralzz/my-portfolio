@@ -1,19 +1,10 @@
 import React from "react";
+import { BarChart, Bar, ResponsiveContainer, Cell } from "recharts";
 import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-  Cell,
-} from "recharts";
-import {
-  getColorFontGraphic,
   getColorGraphic,
-  getRenderTooltipContent,
-  getTooltipStyle,
   GraphicAppProps,
+  renderChartComponents,
+  renderChartTitle,
 } from "./hooks";
 
 /**
@@ -29,14 +20,7 @@ const GraphicBar: React.FC<GraphicAppProps> = ({
   return (
     <div className="mb-4">
       {/* Titulo */}
-      {title && (
-        <p
-          className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-2"
-          data-aos="fade-up"
-        >
-          {title}
-        </p>
-      )}
+      {renderChartTitle(title)}
       {/* Gráfica */}
       {list && (
         <div data-aos="fade-up">
@@ -45,31 +29,7 @@ const GraphicBar: React.FC<GraphicAppProps> = ({
               data={list}
               margin={{ top: 10, right: 30, left: 20, bottom: 5 }}
             >
-              {/* Leyendas de abajo de cada celda */}
-              <XAxis
-                dataKey="name"
-                tick={{
-                  fill: getColorFontGraphic(isThemeDark),
-                  fontSize: 10,
-                }}
-              />
-              {/* Leyenda de la izquierda (Puntos) */}
-              <YAxis
-                tickFormatter={(value) => `${value}%`}
-                tick={{
-                  fill: getColorFontGraphic(isThemeDark),
-                  fontSize: 8,
-                }}
-              />
-              {/* Etiqueta flotante */}
-              <Tooltip
-                contentStyle={getTooltipStyle(isThemeDark)}
-                content={(props) => getRenderTooltipContent(isThemeDark, props)}
-                itemStyle={{
-                  color: getColorFontGraphic(isThemeDark),
-                  fontSize: 8,
-                }}
-              />
+              {renderChartComponents(isThemeDark)}
               {/* Barra */}
               <Bar
                 dataKey="level"
@@ -80,7 +40,10 @@ const GraphicBar: React.FC<GraphicAppProps> = ({
               >
                 {/* Celdas de barra */}
                 {list.map(({ color }, index) => (
-                  <Cell key={`cell-${index}`} fill={getColorGraphic(isThemeDark)} />
+                  <Cell
+                    key={`cell-${index}`}
+                    fill={getColorGraphic(isThemeDark)}
+                  />
                 ))}
               </Bar>
             </BarChart>

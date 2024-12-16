@@ -36,5 +36,5 @@ root.render(
 // Si desea comenzar a medir el rendimiento en su aplicación, pase una función
 // Para registrar los resultados (for example: reportWebVitals(console.log))
 // o enviar a un punto final de análisis. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
-reportWebVitals(console.log);
+reportWebVitals();
+// reportWebVitals(console.log);

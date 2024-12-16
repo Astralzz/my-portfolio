@@ -1,11 +1,29 @@
 {
-  "name": "my_portfolio",
+  "name": "my_portfolio_astralz",
   "author": {
     "name": "Edain Jesus Cortez Ceron",
     "email": "dayind@hotmail.com",
     "url": "https://github.com/Astralzz"
   },
-  "version": "0.1.4",
+  "description": "Portafolio personal de Edain Jesus Cortez Ceron, mostrando proyectos y habilidades.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Astralzz/my-portfolio"
+  },
+  "license": "MIT",
+  "keywords": [
+    "portafolio",
+    "web",
+    "react",
+    "desarrollador",
+    "frontend",
+    "laravel",
+    "tailwindcss",
+    "javascript",
+    "astralz",
+    "java"
+  ],
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@emotion/css": "^11.13.4",
@@ -23,6 +41,7 @@
     "formik": "^2.4.6",
     "framer-motion": "^11.11.7",
     "my_portfolio": "file:",
+    "my_portfolio_astralz": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",

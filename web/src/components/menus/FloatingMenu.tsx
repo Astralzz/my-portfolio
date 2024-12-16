@@ -4,7 +4,7 @@ import { IconType } from "react-icons";
 import { IoCaretBack, IoSunny } from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
 import { hashRoutesApp } from "../../route";
-import { FaFilePdf, FaLinkedin, FaMoon } from "react-icons/fa";
+import { FaLinkedin, FaMoon } from "react-icons/fa";
 import { PiGithubLogoFill } from "react-icons/pi";
 
 type FloatingMenuItemType = {
@@ -153,7 +153,7 @@ const FloatingMenu: React.FC<FloatingMenuProps> = ({ theme }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setMenuVisible(true);
-    }, 5 * 1000);
+    }, 2.5 * 1000);
 
     return () => clearTimeout(timer);
   }, []);
