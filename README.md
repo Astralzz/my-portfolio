@@ -5,7 +5,7 @@
 * [GitHub](https://github.com/Astralzz)
 * [Facebook](https://www.facebook.com/lAstralz)
 * [LinkedIn](https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155)
-* [Email](mailto:dayind@hotmail.com)
+* [Email](mailto:edain.cortez@outlook.com)
 
 ## Introducción
 

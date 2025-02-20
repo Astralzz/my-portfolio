@@ -38,6 +38,7 @@ export type JsonDataType = {
       linkedin?: string;
       email?: string;
       facebook?: string;
+      telegram?: string;
     };
   };
   introduction?: {

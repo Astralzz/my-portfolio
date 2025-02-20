@@ -1,0 +1,69 @@
+Edain Jesus Cortez Ceron
+
+https://t.me/lAstralz
+edain.cortez@outlook.com
+
+Sitios web o enlaces relevantes
+
+https://astralzz.github.io
+https://github.com/Astralzz
+https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155
+
+Resumen profesional
+
+Ingeniero en Computación con amplia experiencia en desarrollo full-stack y gestión de proyectos tecnológicos. Apasionado por crear soluciones escalables, eficientes y seguras. Especializado en integración de bases de datos, optimización de procesos y arquitectura de software. Destacado por la resolución de problemas complejos y el trabajo en equipos multidisciplinarios con enfoque ágil.
+
+Formación
+
+Febrero 2018 - Julio 2022
+Universidad Autonoma de Guerrero Chilpancingo, GRO
+Licenciatura en Ingeniería en Computación Desarrollo de software 
+
+Historial laboral
+
+Diciembre 2022 - Enero 2025
+
+Dirección General de tecnologías de la innovación y digitalización - UAGro, DGTID
+Ingeniero de Software & Full Stack Developer    
+
+Diseño y desarrollo de aplicaciones móviles y soluciones software a medida para diferentes plataformas.
+Integración de bases de datos y desarrollo de arquitectura de sistemas robustos y escalables.
+Mantenimiento y actualización de sistemas, garantizando su rendimiento y seguridad.
+
+Enero 2023 - Enero 2025
+
+Sistema de Diseño y Accesibilidad para la Investigación - Consejo Nacional de Ciencias y Tecnologías, CONAHCYT
+Desarrollador Front end    
+
+Desarrollo de interfaces accesibles y eficientes, cumpliendo con los estándares de usabilidad.
+Gestión de bibliotecas y API para garantizar la integración fluida de nuevas funcionalidades.
+Colaboración con equipos multidisciplinarios para entregar soluciones funcionales y de alto impacto.
+
+Enero 2021 - Diciembre 2021
+
+JAVA - Universidad Autonoma de Guerrero, UAGro
+Instructor de Programación    
+
+Enseñanza de principios de programación modular y buenas prácticas de desarrollo.
+Fomento de la resolución autónoma de problemas y el aprendizaje práctico en los estudiantes.
+Aplicación de estándares de arquitectura y seguridad para garantizar la calidad del código.
+
+Aptitudes
+
+Lenguajes: Java, JavaScript, TypeScript, PHP, Python, Dart
+Frontend: React, Vue.js, Next.js, Ionic
+Backend: Laravel, Django, Spring Boot, Node.js
+Mobile: Flutter, React Native
+
+Bases de datos: MySQL, PostgreSQL, Oracle
+Estilos: CSS, SASS, Tailwind CSS, Bootstrap
+DevOps y Herramientas: Git, Docker, CI/CD, Nginx, Apache
+Otros: Excel, Markdown, API REST, WebSockets, Seguridad Informática
+
+Logros
+
+UAGro App
+Aplicación oficial de la Universidad Autónoma de Guerrero (UAGro) disponible en iOS y Android, con más de 20,000 descargas. Permite consultar calificaciones, oferta educativa, noticias y gestionar actividades académicas. Desarrollada con TypeScript, React Native y Laravel.
+Sistema de Prospección Educativa
+Plataforma web para la Asociación Nacional de Universidades
+e Instituciones de Educación Superior (ANUIES) que apoya a las COEPES en el análisis y planificación de la oferta educativa en niveles medio superior y superior. Utiliza un algoritmo para optimizar la matrícula y facilitar el intercambio de buenas prácticas entre entidades federativas.

@@ -9,8 +9,9 @@
     "enlaces": {
       "github": "https://github.com/Astralzz",
       "linkedin": "https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155",
-      "email": "mailto:dayind@hotmail.com",
-      "facebook": "https://www.facebook.com/lAstralz"
+      "email": "mailto:edain.cortez@outlook.com",
+      "facebook": "https://www.facebook.com/lAstralz",
+      "telegram": "https://t.me/lAstralz"
     }
   },
   "introduction": {
@@ -25,7 +26,8 @@
         { "name": "TypeScript", "level": 10, "color": "#007ACC" },
         { "name": "PHP", "level": 9, "color": "#8993BE" },
         { "name": "Java", "level": 8, "color": "#007396" },
-        { "name": "Python", "level": 5, "color": "#306998" }
+        { "name": "Python", "level": 7, "color": "#306998" },
+        { "name": "Dart", "level": 5, "color": "#5E3253FFFF" }
       ]
     },
     "frameworks": {
@@ -37,6 +39,7 @@
         { "name": "Django", "level": 4, "color": "#092E20" },
         { "name": "Spring Boot", "level": 6, "color": "#6DB33F" },
         { "name": "React Native", "level": 10, "color": "#61DAFB" },
+        { "name": "Flutter", "level": 7, "color": "#70919BFF" },
         { "name": "Ionic", "level": 8, "color": "#3880FF" }
       ]
     },
@@ -50,11 +53,11 @@
     "tools": {
       "title": "Herramientas",
       "list": [
-        { "name": "Git", "level": 8, "color": "#F05033" },
+        { "name": "Git", "level": 9, "color": "#F05033" },
         { "name": "Bootstrap", "level": 9, "color": "#7952B3" },
         { "name": "Tailwind CSS", "level": 10, "color": "#06B6D4" },
         { "name": "Markdown", "level": 10, "color": "#000000" },
-        { "name": "Docker", "level": 4, "color": "#2496ED" }
+        { "name": "Docker", "level": 8, "color": "#2496ED" }
       ]
     },
     "otherSkills": {
@@ -152,7 +155,7 @@
         },
         "role": "Desarrollador Front end",
         "duration": "Diciembre 2023 - Actualidad",
-        "description": "En colaboración con el Consejo Nacional de Ciencia y Tecnología (<b>Conacyt</b>) y la Facultad de Ciencias Químico Biológicas de la Universidad Autónoma de Guerrero (<b>UAGro</b>), desarrollo páginas web accesibles para el Sistema de Diseño y Accesibilidad para la Investigación (<b>SISDAI</b>), utilizando tecnologías como Vue.js y JavaScript. Además, actúo como intermediario entre ambas instituciones, facilitando la comunicación y coordinación de los equipos a través de Slack. Este proyecto a tiempo parcial me ha permitido combinar tanto habilidades técnicas como de gestión, contribuyendo significativamente al éxito del sistema y mejorando la accesibilidad para investigadores y científicos."
+        "description": "En colaboración con el Consejo Nacional de Humanidades, Ciencias y Tecnologías (<b>Conahcyt</b>) y la Facultad de Ciencias Químico Biológicas de la Universidad Autónoma de Guerrero (<b>UAGro</b>), desarrollo páginas web accesibles para el Sistema de Diseño y Accesibilidad para la Investigación (<b>SISDAI</b>), utilizando tecnologías como Vue.js y JavaScript. Además, actúo como intermediario entre ambas instituciones, facilitando la comunicación y coordinación de los equipos a través de Slack. Este proyecto a tiempo parcial me ha permitido combinar tanto habilidades técnicas como de gestión, contribuyendo significativamente al éxito del sistema y mejorando la accesibilidad para investigadores y científicos."
       },
       {
         "company": {
@@ -207,8 +210,8 @@
       },
       {
         "name": "Dr. Alfredo Méndez Bahena",
-        "role": "Profesor investigador de la Universidad Autónoma de Guerrero y Responsa Técnico del PRONAII 318971",
-        "testimonial": "Edain ha sido un excelente colaborador durante la implementación en las paginas web para el Conacyt, A demostrador ser muy profecional y aplicado",
+        "role": "Profesor investigador de la Universidad Autónoma de Guerrero y Responsable Técnico del PRONAII 318971",
+        "testimonial": "Edain ha sido un excelente colaborador durante la implementación en las paginas web para el Conahcyt (Consejo Nacional de Humanidades, Ciencias y Tecnologías), A demostrador ser muy profecional y aplicado",
         "links": {
           "tel": "+527474590701",
           "email": "amendezbahena@gmail.com"

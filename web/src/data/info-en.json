@@ -9,8 +9,9 @@
     "links": {
       "github": "https://github.com/Astralzz",
       "linkedin": "https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155",
-      "email": "mailto:dayind@hotmail.com",
-      "facebook": "https://www.facebook.com/lAstralz"
+      "email": "mailto:edain.cortez@outlook.com",
+      "facebook": "https://www.facebook.com/lAstralz",
+      "telegram": "https://t.me/lAstralz"
     }
   },
   "introduction": {
@@ -25,7 +26,8 @@
         { "name": "TypeScript", "level": 10, "color": "#007ACC" },
         { "name": "PHP", "level": 9, "color": "#8993BE" },
         { "name": "Java", "level": 8, "color": "#007396" },
-        { "name": "Python", "level": 5, "color": "#306998" }
+        { "name": "Python", "level": 7, "color": "#306998" },
+        { "name": "Dart", "level": 5, "color": "#5E3253FFFF" }
       ]
     },
     "frameworks": {
@@ -37,6 +39,7 @@
         { "name": "Django", "level": 4, "color": "#092E20" },
         { "name": "Spring Boot", "level": 6, "color": "#6DB33F" },
         { "name": "React Native", "level": 10, "color": "#61DAFB" },
+        { "name": "Flutter", "level": 7, "color": "#70919BFF" },
         { "name": "Ionic", "level": 8, "color": "#3880FF" }
       ]
     },
@@ -50,11 +53,11 @@
     "tools": {
       "title": "Tools",
       "list": [
-        { "name": "Git", "level": 8, "color": "#F05033" },
+        { "name": "Git", "level": 9, "color": "#F05033" },
         { "name": "Bootstrap", "level": 9, "color": "#7952B3" },
         { "name": "Tailwind CSS", "level": 10, "color": "#06B6D4" },
         { "name": "Markdown", "level": 10, "color": "#000000" },
-        { "name": "Docker", "level": 4, "color": "#2496ED" }
+        { "name": "Docker", "level": 8, "color": "#2496ED" }
       ]
     },
     "otherSkills": {
@@ -152,7 +155,7 @@
         },
         "role": "Frontend Developer",
         "duration": "December 2023 - Present",
-        "description": "In collaboration with the National Council of Science and Technology (<b>Conacyt</b>) and the Faculty of Chemical Biological Sciences of the Autonomous University of Guerrero (<b>UAGro</b>), I develop accessible web pages for the Design and Accessibility System for Research (<b>SISDAI</b>), using technologies such as Vue.js and JavaScript. Additionally, I act as an intermediary between both institutions, facilitating communication and coordination between teams via Slack. This part-time project has allowed me to combine both technical and management skills, significantly contributing to the success of the system and improving accessibility for researchers and scientists."
+        "description": "In collaboration with the National Council for Humanities, Sciences, and Technologies (<b>Conahcyt</b>) and the Faculty of Chemical Biological Sciences of the Autonomous University of Guerrero (<b>UAGro</b>), I develop accessible web pages for the Design and Accessibility System for Research (<b>SISDAI</b>), using technologies such as Vue.js and JavaScript. Additionally, I act as an intermediary between both institutions, facilitating communication and coordination between teams via Slack. This part-time project has allowed me to combine both technical and management skills, significantly contributing to the success of the system and improving accessibility for researchers and scientists."
       },
       {
         "company": {
@@ -207,8 +210,8 @@
       },
       {
         "name": "Dr. Alfredo Méndez Bahena",
-        "role": "Professor and researcher at the Autonomous University of Guerrero and Technical Lead of PRONAII 318971",
-        "testimonial": "Edain has been an excellent collaborator during the implementation of the web pages for Conacyt. He has proven to be very professional and dedicated.",
+        "role": "Research Professor at the Autonomous University of Guerrero and Technical Lead of PRONAII 318971",
+        "testimonial": "Edain has been an excellent collaborator during the implementation of the web pages for Conahcyt (National Council for Humanities, Sciences, and Technologies). He has proven to be very professional and dedicated.",
         "links": {
           "tel": "+527474590701",
           "email": "amendezbahena@gmail.com"

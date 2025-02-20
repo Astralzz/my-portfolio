@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import INFO_APP from "../hooks/info-data";
-import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaTelegram } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import SectionWrapperDefault from "../components/sections/SectionWrapperDefault";
 import SocialIcon from "../components/icons/SocialIcon";
@@ -67,6 +67,9 @@ const HomeView: React.FC = (): JSX.Element => {
           )}
           {enlaces?.email && (
             <SocialIcon href={enlaces.email} Icon={IoMdMail} />
+          )}
+          {enlaces?.telegram && (
+            <SocialIcon href={enlaces.telegram} Icon={FaTelegram} />
           )}
         </div>
       )}
