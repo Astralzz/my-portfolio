@@ -1,11 +1,12 @@
-# Mi Portafolio Web - Edain Jesus Cortez Ceron
+# Mi Portafolio Web - Edain Jesús Cortez Cerón
 
 ## Contacto
 
-* [GitHub](https://github.com/Astralzz)
-* [Facebook](https://www.facebook.com/lAstralz)
-* [LinkedIn](https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155)
-* [Email](mailto:edain.cortez@outlook.com)
+* 📌 *Portafolio:* [astralzz.io](https://astralzz.github.io/)  
+* 📩 *Email:* [edain.cortez@outlook.com](mailto:edain.cortez@outlook.com)  
+* 📱 *Telegram:* [t.me/lAstralz.png](https://t.me/lAstralz)  
+* 🔗 *LinkedIn:* [linkedin.com/Edain](https://linkedin.com/in/edain-jesus-cortez-ceron-23b26b155)  
+* 😺 *GitHub:* [github.com/Astralzz](https://github.com/Astralzz)  
 
 ## Introducción
 
@@ -27,7 +28,7 @@ Si encuentras algún error, tienes sugerencias o mejoras, siéntete libre de abr
 
 ## The MIT License (MIT)
 
-Copyright (c) [2024] [Edain Jesus Cortez Ceron]
+Copyright (c) [2024] [Edain Jesús Cortez Cerón]
 
 Se concede permiso, de manera gratuita, a cualquier persona que obtenga una copia del software y los archivos de documentación asociados (el "Software"), para usar el Software sin restricciones, incluyendo sin limitación los derechos a usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y para permitir a las personas a las que se les proporcione el Software hacer lo mismo, bajo las siguientes condiciones:
 
