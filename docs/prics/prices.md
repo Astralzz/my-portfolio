@@ -21,7 +21,8 @@
 - ➕ Integración con redes sociales (+1,500 MXN**).  
 - ➕ Dominio y hosting configurados por un año (+3,500 MXN**).  
 
-📌 *Opción económica:*  
+### 📌 *Opción económica:*
+
 🔹 *Sitio One-Page (toda la información en una sola página, con secciones interactivas)* desde **8,000 MXN**.  
 
 ---
@@ -67,6 +68,34 @@
 - ➕ Inteligencia artificial o automatización de procesos (+20,000 MXN**).  
 - ➕ Optimización para alto tráfico y servidores escalables (+15,000 MXN**).  
 - ➕ Aplicación móvil adicional para iOS/Android (+30,000 - 50,000 MXN**).  
+
+---
+
+## 4. Aplicación Móvil Básica (sin backend ni base de datos)
+
+💰 Desde 15,000 hasta 30,000 MXN
+📌 Ideal para: Empresas o individuos que necesitan una aplicación móvil sencilla, sin conexión a bases de datos ni funcionalidades avanzadas.
+
+### ✅ *Incluye:*
+
+Diseño atractivo y responsivo.
+
+Implementación con React Native o Flutter.
+
+Hasta 5 secciones clave (Inicio, Nosotros, Servicios, Contacto, etc.).
+
+Formularios básicos (sin almacenamiento de datos).
+
+Optimización para iOS y Android.
+
+Integración con redes sociales (enlaces directos, sin login).
+
+Publicación en tiendas de aplicaciones (si se requiere, con costo adicional).
+
+### 📌 *Extras opcionales:*
+
+➕ Publicación en App Store y Google Play (+3,000 MXN**).
+➕ Animaciones o transiciones avanzadas (+2,500 MXN**).
 
 ---
 
